@@ -1,0 +1,131 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\Ex3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|c:\\users\\dell\\source\\repos\\ex3\\ex3\\candidatec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|solutionrelative:ex3\\candidatec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|c:\\users\\dell\\source\\repos\\ex3\\ex3\\managercandidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|solutionrelative:ex3\\managercandidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|c:\\users\\dell\\source\\repos\\ex3\\ex3\\candidateb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|solutionrelative:ex3\\candidateb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|c:\\users\\dell\\source\\repos\\ex3\\ex3\\candidatea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|solutionrelative:ex3\\candidatea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|c:\\users\\dell\\source\\repos\\ex3\\ex3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|solutionrelative:ex3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|c:\\users\\dell\\source\\repos\\ex3\\ex3\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|solutionrelative:ex3\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 301,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManagerCandidate.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\ManagerCandidate.cs",
+              "RelativeDocumentMoniker": "Ex3\\ManagerCandidate.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\ManagerCandidate.cs",
+              "RelativeToolTip": "Ex3\\ManagerCandidate.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAgwCoAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T09:36:04.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CandidateC.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\CandidateC.cs",
+              "RelativeDocumentMoniker": "Ex3\\CandidateC.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\CandidateC.cs",
+              "RelativeToolTip": "Ex3\\CandidateC.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T09:35:53.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CandidateB.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\CandidateB.cs",
+              "RelativeDocumentMoniker": "Ex3\\CandidateB.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\CandidateB.cs",
+              "RelativeToolTip": "Ex3\\CandidateB.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T09:35:49.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CandidateA.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\CandidateA.cs",
+              "RelativeDocumentMoniker": "Ex3\\CandidateA.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\CandidateA.cs",
+              "RelativeToolTip": "Ex3\\CandidateA.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T09:35:38.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Candidate.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\Candidate.cs",
+              "RelativeDocumentMoniker": "Ex3\\Candidate.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\Candidate.cs",
+              "RelativeToolTip": "Ex3\\Candidate.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T09:35:33.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\Program.cs",
+              "RelativeDocumentMoniker": "Ex3\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\Program.cs",
+              "RelativeToolTip": "Ex3\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwBkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T04:01:58.029Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 99,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

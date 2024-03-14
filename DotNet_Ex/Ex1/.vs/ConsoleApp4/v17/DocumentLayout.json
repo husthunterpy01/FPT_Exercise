@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\ConsoleApp4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11F74321-66C4-43BD-B152-A22FF1B0F360}|ConsoleApp4\\ConsoleApp4.csproj|c:\\users\\dell\\source\\repos\\consoleapp4\\consoleapp4\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F74321-66C4-43BD-B152-A22FF1B0F360}|ConsoleApp4\\ConsoleApp4.csproj|solutionrelative:consoleapp4\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F74321-66C4-43BD-B152-A22FF1B0F360}|ConsoleApp4\\ConsoleApp4.csproj|c:\\users\\dell\\source\\repos\\consoleapp4\\consoleapp4\\personel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F74321-66C4-43BD-B152-A22FF1B0F360}|ConsoleApp4\\ConsoleApp4.csproj|solutionrelative:consoleapp4\\personel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F74321-66C4-43BD-B152-A22FF1B0F360}|ConsoleApp4\\ConsoleApp4.csproj|c:\\users\\dell\\source\\repos\\consoleapp4\\consoleapp4\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F74321-66C4-43BD-B152-A22FF1B0F360}|ConsoleApp4\\ConsoleApp4.csproj|solutionrelative:consoleapp4\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F74321-66C4-43BD-B152-A22FF1B0F360}|ConsoleApp4\\ConsoleApp4.csproj|c:\\users\\dell\\source\\repos\\consoleapp4\\consoleapp4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F74321-66C4-43BD-B152-A22FF1B0F360}|ConsoleApp4\\ConsoleApp4.csproj|solutionrelative:consoleapp4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F74321-66C4-43BD-B152-A22FF1B0F360}|ConsoleApp4\\ConsoleApp4.csproj|c:\\users\\dell\\source\\repos\\consoleapp4\\consoleapp4\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F74321-66C4-43BD-B152-A22FF1B0F360}|ConsoleApp4\\ConsoleApp4.csproj|solutionrelative:consoleapp4\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F74321-66C4-43BD-B152-A22FF1B0F360}|ConsoleApp4\\ConsoleApp4.csproj|c:\\users\\dell\\source\\repos\\consoleapp4\\consoleapp4\\engineer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F74321-66C4-43BD-B152-A22FF1B0F360}|ConsoleApp4\\ConsoleApp4.csproj|solutionrelative:consoleapp4\\engineer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Personel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\ConsoleApp4\\ConsoleApp4\\Personel.cs",
+              "RelativeDocumentMoniker": "ConsoleApp4\\Personel.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\ConsoleApp4\\ConsoleApp4\\Personel.cs",
+              "RelativeToolTip": "ConsoleApp4\\Personel.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowCUAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T03:52:18.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\ConsoleApp4\\ConsoleApp4\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp4\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\ConsoleApp4\\ConsoleApp4\\Program.cs",
+              "RelativeToolTip": "ConsoleApp4\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T07:59:03.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Worker.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\ConsoleApp4\\ConsoleApp4\\Worker.cs",
+              "RelativeDocumentMoniker": "ConsoleApp4\\Worker.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\ConsoleApp4\\ConsoleApp4\\Worker.cs",
+              "RelativeToolTip": "ConsoleApp4\\Worker.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAYwBEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T08:39:47.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\ConsoleApp4\\ConsoleApp4\\Manager.cs",
+              "RelativeDocumentMoniker": "ConsoleApp4\\Manager.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\ConsoleApp4\\ConsoleApp4\\Manager.cs",
+              "RelativeToolTip": "ConsoleApp4\\Manager.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAswE8AAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T08:40:34.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Engineer.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\ConsoleApp4\\ConsoleApp4\\Engineer.cs",
+              "RelativeDocumentMoniker": "ConsoleApp4\\Engineer.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\ConsoleApp4\\ConsoleApp4\\Engineer.cs",
+              "RelativeToolTip": "ConsoleApp4\\Engineer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T08:40:02.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\ConsoleApp4\\ConsoleApp4\\Employee.cs",
+              "RelativeDocumentMoniker": "ConsoleApp4\\Employee.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\ConsoleApp4\\ConsoleApp4\\Employee.cs",
+              "RelativeToolTip": "ConsoleApp4\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBMAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-01T08:40:21.897Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
