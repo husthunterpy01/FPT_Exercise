@@ -83,7 +83,7 @@ namespace Ex3
             candidate.Address = Console.ReadLine();
             Console.WriteLine("Add the priority of the candidate");
             candidate.Priority = Convert.ToInt32(Console.ReadLine());
-
+            c.Add(candidate);
         }
         // Print the detail information of the candidate
         public void PrintCandidateInfo()
