@@ -15,21 +15,30 @@ namespace Ex13
         public string Id { get; set; }
         public string FullName { get; set; }
         public DateTime BirthDay { get; set; }
+        public string Email { get; set; }
         public int Phone { get; set; }
         public static int Employee_type { get; set; }
-        public static int Employee_count { get; set; }
-
-        public Employee(string id, string fullName, DateTime birthDay, int phone)
+        public static int Employee_count { get; set; } = 0;
+        public List<Certificate> CertificateList { get; set; }
+        public Employee()
+        {
+            Employee_count++;
+        }
+        public Employee(string id, string fullName, DateTime birthDay, string email, int phone, List<Certificate> certificate)
         {
             Id = id;
             FullName = fullName;
             BirthDay = birthDay;
+            Email = email;
             Phone = phone;
+            CertificateList = certificate;
+            Employee_count++;
         }
+
         public string ShowInfo()
         {
-            return string.Format($"Id {Id} Fullname {FullName} Birthday: {BirthDay} Phone:{Phone} Employee type {Employee_type} Employee count {Employee_count}");
+            return string.Format($"Id {Id} Fullname {FullName} Birthday: {BirthDay} Email: {Email} Phone:{Phone} Employee count {Employee_count}");
         }
-        public abstract void ShowMe();
+        public abstract string ShowMe();
     }
 }
