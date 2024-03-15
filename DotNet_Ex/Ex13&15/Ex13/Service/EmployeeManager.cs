@@ -331,7 +331,7 @@ namespace Ex13
                             default:
                                 return;
                         }
-                    } while (n != 5);
+                    } while (n != 7);
                 }
                 else
                 {
