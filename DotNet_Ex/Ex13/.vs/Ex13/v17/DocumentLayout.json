@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\Ex13\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|c:\\users\\dell\\source\\repos\\ex13\\ex13\\exceptionsystem\\idexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|solutionrelative:ex13\\exceptionsystem\\idexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|c:\\users\\dell\\source\\repos\\ex13\\ex13\\service\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|solutionrelative:ex13\\service\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|c:\\users\\dell\\source\\repos\\ex13\\ex13\\exceptionsystem\\phoneexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|solutionrelative:ex13\\exceptionsystem\\phoneexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +19,16 @@
       "RelativeMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|solutionrelative:ex13\\exceptionsystem\\fullnameexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|c:\\users\\dell\\source\\repos\\ex13\\ex13\\service\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|solutionrelative:ex13\\service\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|c:\\users\\dell\\source\\repos\\ex13\\ex13\\exceptionsystem\\emailexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|solutionrelative:ex13\\exceptionsystem\\emailexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|c:\\users\\dell\\source\\repos\\ex13\\ex13\\entity\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|solutionrelative:ex13\\entity\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|c:\\users\\dell\\source\\repos\\ex13\\ex13\\exceptionsystem\\idexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|solutionrelative:ex13\\exceptionsystem\\idexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|c:\\users\\dell\\source\\repos\\ex13\\ex13\\exceptionsystem\\datetimeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|solutionrelative:ex13\\exceptionsystem\\datetimeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|c:\\users\\dell\\source\\repos\\ex13\\ex13\\exceptionsystem\\emailexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|solutionrelative:ex13\\exceptionsystem\\emailexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|c:\\users\\dell\\source\\repos\\ex13\\ex13\\entity\\certificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,8 +41,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 301,
-          "SelectedChildIndex": 6,
+          "DockedHeight": 374,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -63,91 +63,90 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "IdException.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ex13\\Ex13\\ExceptionSystem\\IdException.cs",
               "RelativeDocumentMoniker": "Ex13\\ExceptionSystem\\IdException.cs",
               "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ex13\\Ex13\\ExceptionSystem\\IdException.cs",
               "RelativeToolTip": "Ex13\\ExceptionSystem\\IdException.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAswAoAAAATAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAIwCAAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T10:16:04.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DateTimeException.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ex13\\Ex13\\ExceptionSystem\\DateTimeException.cs",
               "RelativeDocumentMoniker": "Ex13\\ExceptionSystem\\DateTimeException.cs",
               "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ex13\\Ex13\\ExceptionSystem\\DateTimeException.cs",
               "RelativeToolTip": "Ex13\\ExceptionSystem\\DateTimeException.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwAYAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T09:58:47.7Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-15T09:58:47.7Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "FullNameException.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ex13\\Ex13\\ExceptionSystem\\FullNameException.cs",
               "RelativeDocumentMoniker": "Ex13\\ExceptionSystem\\FullNameException.cs",
               "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ex13\\Ex13\\ExceptionSystem\\FullNameException.cs",
               "RelativeToolTip": "Ex13\\ExceptionSystem\\FullNameException.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAYwA8AAAAQAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAkwAYAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-15T09:40:03.936Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "EmailException.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ex13\\Ex13\\ExceptionSystem\\EmailException.cs",
               "RelativeDocumentMoniker": "Ex13\\ExceptionSystem\\EmailException.cs",
               "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ex13\\Ex13\\ExceptionSystem\\EmailException.cs",
               "RelativeToolTip": "Ex13\\ExceptionSystem\\EmailException.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAA+wBoAAAAJAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAQwAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-15T09:39:59.693Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "PhoneException.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ex13\\Ex13\\ExceptionSystem\\PhoneException.cs",
               "RelativeDocumentMoniker": "Ex13\\ExceptionSystem\\PhoneException.cs",
               "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ex13\\Ex13\\ExceptionSystem\\PhoneException.cs",
               "RelativeToolTip": "Ex13\\ExceptionSystem\\PhoneException.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAYwA8AAAAQAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA8wAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-15T09:39:51.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "EmployeeManager.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ex13\\Ex13\\Service\\EmployeeManager.cs",
               "RelativeDocumentMoniker": "Ex13\\Service\\EmployeeManager.cs",
               "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ex13\\Ex13\\Service\\EmployeeManager.cs",
               "RelativeToolTip": "Ex13\\Service\\EmployeeManager.cs",
-              "ViewState": "AQIAAHMAAAAAAAAAAAAkwHwAAABRAAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAAAQwAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T18:58:12.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ex13\\Ex13\\Entity\\Employee.cs",
               "RelativeDocumentMoniker": "Ex13\\Entity\\Employee.cs",
               "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ex13\\Ex13\\Entity\\Employee.cs",
               "RelativeToolTip": "Ex13\\Entity\\Employee.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAwAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAA3wBQAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T18:58:11.389Z",
               "EditorCaption": ""
@@ -155,7 +154,7 @@
           ]
         },
         {
-          "DockedHeight": 99,
+          "DockedHeight": 26,
           "SelectedChildIndex": -1,
           "Children": [
             {

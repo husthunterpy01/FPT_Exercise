@@ -1,6 +1,6 @@
 ﻿using Ex13.Entity;
-using Ex13.Exception;
 using Ex13.ExceptionSystem;
+using Ex13.ExceptionSytem;
 namespace Ex13.Service
 {
     internal class EmployeeManager

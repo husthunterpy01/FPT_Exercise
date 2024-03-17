@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ex13.Exception
+namespace Ex13.ExceptionSystem
 {
     internal class FullNameException : IOException
     {
