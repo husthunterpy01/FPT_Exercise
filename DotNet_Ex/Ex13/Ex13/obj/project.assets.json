@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\Ex13\\Ex13\\Ex13.csproj",
+      "projectUniqueName": "D:\\FPT_Exercise\\DotNet_Ex\\Ex13\\Ex13\\Ex13.csproj",
       "projectName": "Ex13",
-      "projectPath": "C:\\Users\\DELL\\source\\repos\\Ex13\\Ex13\\Ex13.csproj",
+      "projectPath": "D:\\FPT_Exercise\\DotNet_Ex\\Ex13\\Ex13\\Ex13.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\source\\repos\\Ex13\\Ex13\\obj\\",
+      "outputPath": "D:\\FPT_Exercise\\DotNet_Ex\\Ex13\\Ex13\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -36,7 +36,7 @@ namespace Ex15
                         break;
                     case 3:
                         Console.WriteLine("Choose the type of result you want to see");
-
+                        ShowResult();
                         break;
                     case 4:
                         Console.WriteLine("Goodbye");
@@ -50,16 +50,17 @@ namespace Ex15
         //1. Add Student
         public void AddStudent()
         {
+            List<Result> studentResults = new List<Result>();
             int studentType;
             do
             {
                 Console.WriteLine("Choose the type of student you want to add 1-Formal Student 2-Office Student");
                 studentType = Convert.ToInt32(Console.ReadLine());
-                if (studentType != 1 || studentType != 2)
+                if (studentType != 1 && studentType != 2)
                 {
                     Console.WriteLine("Invalid number, please try again");
                 }
-            } while (studentType != 2);
+            } while (studentType != 1 && studentType != 2);
 
             Console.WriteLine("Enter the student Id");
             string id = IdException.ValidateId(studentList);
@@ -87,11 +88,11 @@ namespace Ex15
             Console.WriteLine("Enter the semester average score");
             float avgScore = Convert.ToSingle(Console.ReadLine());
             Result result = new Result(semesterName, avgScore);
-            resultlist.Add(result);
+            studentResults.Add(result);
             // Formal student
             if (studentType == 1)
             {
-                Student formalstu = new FormalStudent(id, name, dobVerified, enrolledYear, entryPoint, resultlist, ((StudentType.StudentEduType)studentType).ToString());
+                Student formalstu = new FormalStudent(id, name, dobVerified, enrolledYear, entryPoint, studentResults, ((StudentType.StudentEduType)studentType).ToString());
                 studentList.Add(formalstu);
             }
             // Office student
@@ -99,7 +100,7 @@ namespace Ex15
             {
                 Console.WriteLine("Enter the office address");
                 var officeAddr = Console.ReadLine();
-                Student officestu = new OfficeStudent(id, name, dobVerified, enrolledYear, entryPoint, resultlist, ((StudentType.StudentEduType)studentType).ToString(), officeAddr);
+                Student officestu = new OfficeStudent(id, name, dobVerified, enrolledYear, entryPoint, studentResults, ((StudentType.StudentEduType)studentType).ToString(), officeAddr);
                 studentList.Add(officestu);
             }
         }
@@ -240,15 +241,25 @@ namespace Ex15
         {
             Console.WriteLine("Enter the student Id:");
             var stuId = Console.ReadLine();
-            foreach (var stu in studentList)
+            Console.WriteLine("Enter the semester:");
+            var semester = Convert.ToInt32(Console.ReadLine());
+
+            var student = studentList.FirstOrDefault(stu => stu.Id == stuId);
+
+            if (student != null)
             {
-                if (stuId == stu.Id)
+                foreach (var result in student.result)
                 {
-                    foreach (var result in resultlist)
+                    if (result.SemesterName == semester)
                     {
-                        Console.WriteLine("The average score of student with Id {1} is: {2}", stu.Id, result.AvgScore);
+                        Console.WriteLine("The average score of student with Id {0} in semester {1} is: {2}", student.Id, semester, result.AvgScore);
                     }
                 }
+                Console.WriteLine("No result found for student with Id {0} in semester {1}", student.Id, semester);
+            }
+            else
+            {
+                Console.WriteLine("No student found with ID {0}", stuId);
             }
         }
 
@@ -257,9 +268,18 @@ namespace Ex15
         {
             var nearestSemes = resultlist.Select(s => s.SemesterName).Max();
             var highestscore = studentList.Where(s => s.result.Any(r => r.AvgScore >= 8.0 && r.SemesterName == nearestSemes));
-            foreach (var stu in highestscore)
+            if (highestscore.Any())
             {
-                Console.WriteLine("Student with Id {1} has the Average score >= 8.0 in semester {2}", stu.Id, nearestSemes);
+                foreach (var stu in highestscore)
+                {
+                    Console.WriteLine("Student with Id {0} has the Average score >= 8.0 in semester {1}", stu.Id, nearestSemes);
+                    
+                }
+               
+            }
+            else
+            {
+                Console.WriteLine("No students in the list adapts this criteria");
             }
         }
 
@@ -269,7 +289,8 @@ namespace Ex15
             var highestscore = studentList.OrderByDescending(stu => stu.InScore).First();
             if (highestscore != null)
             {
-                Console.WriteLine("The student with Id {1} has the highest entry score of {2}", highestscore.Id, highestscore.InScore);
+                Console.WriteLine("The student with Id {0} has the highest entry score of {1}", highestscore.Id, highestscore.InScore);
+                
             }
             else
             {
@@ -284,7 +305,9 @@ namespace Ex15
             foreach (var stu in stuMax)
             {
                 Console.WriteLine($"Student with Id {stu.Id} has the highest AvgScore of {highestAvg}");
+                
             }
+            
         }
     }
 }
