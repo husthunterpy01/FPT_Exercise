@@ -7,16 +7,28 @@
       "RelativeMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|solutionrelative:ex13\\service\\employeemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|d:\\fpt_exercise\\dotnet_ex\\ex13\\ex13\\entity\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|solutionrelative:ex13\\entity\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|d:\\fpt_exercise\\dotnet_ex\\ex13\\ex13\\exceptionsystem\\fullnameexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|solutionrelative:ex13\\exceptionsystem\\fullnameexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|d:\\fpt_exercise\\dotnet_ex\\ex13\\ex13\\entity\\fresher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|solutionrelative:ex13\\entity\\fresher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|d:\\fpt_exercise\\dotnet_ex\\ex13\\ex13\\entity\\experience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|solutionrelative:ex13\\entity\\experience.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|d:\\fpt_exercise\\dotnet_ex\\ex13\\ex13\\exceptionsystem\\idexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|solutionrelative:ex13\\exceptionsystem\\idexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|d:\\fpt_exercise\\dotnet_ex\\ex13\\ex13\\exceptionsystem\\datetimeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|solutionrelative:ex13\\exceptionsystem\\datetimeexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|d:\\fpt_exercise\\dotnet_ex\\ex13\\ex13\\entity\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|solutionrelative:ex13\\entity\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|d:\\fpt_exercise\\dotnet_ex\\ex13\\ex13\\entity\\certificate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|d:\\fpt_exercise\\dotnet_ex\\ex13\\ex13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|solutionrelative:ex13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|d:\\fpt_exercise\\dotnet_ex\\ex13\\ex13\\exceptionsystem\\idexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2FC74620-433C-4A2B-874A-D738024751B7}|Ex13\\Ex13.csproj|solutionrelative:ex13\\exceptionsystem\\idexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 374,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Certificate.cs",
               "DocumentMoniker": "D:\\FPT_Exercise\\DotNet_Ex\\Ex13\\Ex13\\Entity\\Certificate.cs",
               "RelativeDocumentMoniker": "Ex13\\Entity\\Certificate.cs",
@@ -51,8 +59,7 @@
               "ViewState": "AQIAABAAAAAAAAAAAAAjwBsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T18:58:10.58Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -60,7 +67,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "Fresher.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\DotNet_Ex\\Ex13\\Ex13\\Entity\\Fresher.cs",
+              "RelativeDocumentMoniker": "Ex13\\Entity\\Fresher.cs",
+              "ToolTip": "D:\\FPT_Exercise\\DotNet_Ex\\Ex13\\Ex13\\Entity\\Fresher.cs",
+              "RelativeToolTip": "Ex13\\Entity\\Fresher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T09:30:03.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Experience.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\DotNet_Ex\\Ex13\\Ex13\\Entity\\Experience.cs",
+              "RelativeDocumentMoniker": "Ex13\\Entity\\Experience.cs",
+              "ToolTip": "D:\\FPT_Exercise\\DotNet_Ex\\Ex13\\Ex13\\Entity\\Experience.cs",
+              "RelativeToolTip": "Ex13\\Entity\\Experience.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T09:29:55.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\FPT_Exercise\\DotNet_Ex\\Ex13\\Ex13\\Program.cs",
               "RelativeDocumentMoniker": "Ex13\\Program.cs",
@@ -68,12 +101,11 @@
               "RelativeToolTip": "Ex13\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T07:56:18.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T07:56:18.145Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "IdException.cs",
               "DocumentMoniker": "D:\\FPT_Exercise\\DotNet_Ex\\Ex13\\Ex13\\ExceptionSystem\\IdException.cs",
               "RelativeDocumentMoniker": "Ex13\\ExceptionSystem\\IdException.cs",
@@ -81,11 +113,12 @@
               "RelativeToolTip": "Ex13\\ExceptionSystem\\IdException.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAIwCAAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T10:16:04.338Z"
+              "WhenOpened": "2024-03-17T10:16:04.338Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DateTimeException.cs",
               "DocumentMoniker": "D:\\FPT_Exercise\\DotNet_Ex\\Ex13\\Ex13\\ExceptionSystem\\DateTimeException.cs",
               "RelativeDocumentMoniker": "Ex13\\ExceptionSystem\\DateTimeException.cs",
@@ -98,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "FullNameException.cs",
               "DocumentMoniker": "D:\\FPT_Exercise\\DotNet_Ex\\Ex13\\Ex13\\ExceptionSystem\\FullNameException.cs",
               "RelativeDocumentMoniker": "Ex13\\ExceptionSystem\\FullNameException.cs",
@@ -117,20 +150,20 @@
               "RelativeDocumentMoniker": "Ex13\\Service\\EmployeeManager.cs",
               "ToolTip": "D:\\FPT_Exercise\\DotNet_Ex\\Ex13\\Ex13\\Service\\EmployeeManager.cs",
               "RelativeToolTip": "Ex13\\Service\\EmployeeManager.cs",
-              "ViewState": "AQIAALcAAAAAAAAAAAAhwNoAAAARAAAA",
+              "ViewState": "AQIAANAAAAAAAAAAAAAIwNoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T18:58:12.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\FPT_Exercise\\DotNet_Ex\\Ex13\\Ex13\\Entity\\Employee.cs",
               "RelativeDocumentMoniker": "Ex13\\Entity\\Employee.cs",
               "ToolTip": "D:\\FPT_Exercise\\DotNet_Ex\\Ex13\\Ex13\\Entity\\Employee.cs",
               "RelativeToolTip": "Ex13\\Entity\\Employee.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAA4wBUAAABZAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAA8wBUAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-14T18:58:11.389Z",
               "EditorCaption": ""

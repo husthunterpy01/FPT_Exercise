@@ -217,9 +217,6 @@ namespace Ex13.Service
                     cer.CertifcatedDate = dateTime;
                     emp.CertificateList.Add(cer); // Add certificate to the employee's certificate list
                 }
-
-                // Add the employee back to the list after adding certificates
-                employees.Add(emp);
             }
             else
             {
