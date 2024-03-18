@@ -48,13 +48,13 @@ namespace Ex15
         // Year enrolled in descending order, student edu type in ascending order
         public int Compare(Student x, Student y)
         {
-            var yearenroll = y.YearIn - x.YearIn;
-            if (yearenroll != 0)
+            var studentType = x.StudentEduType.CompareTo(y.StudentEduType);
+            if (studentType != 0)
             {
-                return yearenroll;
+                return studentType;
             }
 
-            return x.StudentEduType.CompareTo(x.StudentEduType);    
+            return y.YearIn - x.YearIn;   
         }
 
         public override string ToString()
