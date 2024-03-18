@@ -1,6 +1,7 @@
 ﻿using Ex13.Entity;
 using Ex13.ExceptionSystem;
 using Ex13.ExceptionSytem;
+using System.Runtime.ConstrainedExecution;
 namespace Ex13.Service
 {
     internal class EmployeeManager
@@ -184,49 +185,48 @@ namespace Ex13.Service
         {
             Console.WriteLine("Enter the id of the employee you want to add certificate");
             string eId = Console.ReadLine();
-            //employees.Find(emp => emp.Id == eId).Certificate = null;
-            foreach (var e in employees)
+
+            Employee emp = employees.Find(emp => emp.Id == eId);
+
+            if (emp != null)
             {
-                if (eId == e.Id)
-                {
-                    Console.WriteLine("Employee found, please enter the employee certificates information ");
-                    Console.WriteLine("Enter the number of certificates you want to add");
-                    int n = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Employee found, please enter the employee certificates information ");
+                Console.WriteLine("Enter the number of certificates you want to add");
+                int n = Convert.ToInt32(Console.ReadLine());
 
-                    for (int i = 0; i < n; i++)
+                for (int i = 0; i < n; i++)
+                {
+                    Certificate cer = new Certificate();
+                    Console.WriteLine("Enter the certificate name");
+                    cer.CertificateName = Console.ReadLine();
+                    Console.WriteLine("Enter the certificate id");
+                    cer.CertificateId = Console.ReadLine();
+                    Console.WriteLine("Enter the certificate rank");
+                    cer.CertificateRank = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Enter the certificate date");
+                    var dobInput = Console.ReadLine();
+                    DateTime dateTime;
+                    if (DateTimeException.TryParseNonStandardDate(dobInput, out dateTime))
                     {
-                        Certificate cer = new Certificate();
-                        Console.WriteLine("Enter the certificate name");
-                        cer.CertificateName = Console.ReadLine();
-                        Console.WriteLine("Enter the certifcate id");
-                        cer.CertificateId = Console.ReadLine();
-                        Console.WriteLine("Enter the certificate rank");
-                        cer.CertificateRank = Convert.ToInt32(Console.ReadLine());
-                        Console.WriteLine("Enter the certificate date");
-                        var dobInput = Console.ReadLine();
-                        DateTime dateTime;
-                        if (DateTimeException.TryParseNonStandardDate(dobInput, out dateTime))
-                        {
-                            Console.WriteLine("Successfully parsed: " + dobInput.ToString());
-                        }
-                        else
-                        {
-                            Console.WriteLine("Invalid date format.");
-                        }
-                        cer.CertifcatedDate = dateTime;
-                        certificates.Add(cer);
-                        emp.CertificateList = certificates;
-                        employees.Add(emp);
+                        Console.WriteLine("Successfully parsed: " + dobInput.ToString());
                     }
+                    else
+                    {
+                        Console.WriteLine("Invalid date format.");
+                    }
+                    cer.CertifcatedDate = dateTime;
+                    emp.CertificateList.Add(cer); // Add certificate to the employee's certificate list
                 }
-                else
-                {
-                    Console.WriteLine("No employee found");
-                    break;
-                }
-            }
 
+                // Add the employee back to the list after adding certificates
+                employees.Add(emp);
+            }
+            else
+            {
+                Console.WriteLine("No employee found with the provided ID.");
+            }
         }
+
 
         // 2. Modify employee information
         public void ModifyEmployeeInfo()

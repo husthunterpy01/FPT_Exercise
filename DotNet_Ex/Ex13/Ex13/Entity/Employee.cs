@@ -19,7 +19,7 @@ namespace Ex13.Entity
         public int Phone { get; set; }
         public static int Employee_type { get; set; }
         public static int Employee_count { get; set; } = 0;
-        public List<Certificate> CertificateList { get; set; }
+        public List<Certificate> CertificateList { get; set; } = new List<Certificate>();
         public Employee()
         {
             Employee_count++;
