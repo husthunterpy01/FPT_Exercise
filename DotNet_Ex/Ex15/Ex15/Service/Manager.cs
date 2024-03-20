@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Channels;
 using System.Threading.Tasks;
+using Ex15.Entity;
 using Ex15.Exception;
 namespace Ex15
 {
@@ -180,7 +181,7 @@ namespace Ex15
         public void ShowListEnrolled()
         {
             Console.WriteLine("The list of student based on years and type is: ");
-            studentList.Sort();
+            studentList.Sort(new ListCompare());
             foreach (var stu in studentList)
             {
                 Console.WriteLine(stu.ToString());

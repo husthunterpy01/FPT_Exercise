@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\Ex3\\",
+  "WorkspaceRootPath": "D:\\FPT_Exercise\\DotNet_Ex\\Ex3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|c:\\users\\dell\\source\\repos\\ex3\\ex3\\candidatec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|solutionrelative:ex3\\candidatec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|c:\\users\\dell\\source\\repos\\ex3\\ex3\\managercandidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|d:\\fpt_exercise\\dotnet_ex\\ex3\\ex3\\managercandidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|solutionrelative:ex3\\managercandidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|c:\\users\\dell\\source\\repos\\ex3\\ex3\\candidateb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|solutionrelative:ex3\\candidateb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|c:\\users\\dell\\source\\repos\\ex3\\ex3\\candidatea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|solutionrelative:ex3\\candidatea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|c:\\users\\dell\\source\\repos\\ex3\\ex3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|d:\\fpt_exercise\\dotnet_ex\\ex3\\ex3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|solutionrelative:ex3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|c:\\users\\dell\\source\\repos\\ex3\\ex3\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|d:\\fpt_exercise\\dotnet_ex\\ex3\\ex3\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|solutionrelative:ex3\\candidate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|d:\\fpt_exercise\\dotnet_ex\\ex3\\ex3\\candidateb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|solutionrelative:ex3\\candidateb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|d:\\fpt_exercise\\dotnet_ex\\ex3\\ex3\\candidatec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|solutionrelative:ex3\\candidatec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|d:\\fpt_exercise\\dotnet_ex\\ex3\\ex3\\candidatea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{889B40D6-01A2-4F4E-9F31-FFDB38046B67}|Ex3\\Ex3.csproj|solutionrelative:ex3\\candidatea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 301,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,23 +42,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ManagerCandidate.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\ManagerCandidate.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\DotNet_Ex\\Ex3\\Ex3\\ManagerCandidate.cs",
               "RelativeDocumentMoniker": "Ex3\\ManagerCandidate.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\ManagerCandidate.cs",
+              "ToolTip": "D:\\FPT_Exercise\\DotNet_Ex\\Ex3\\Ex3\\ManagerCandidate.cs",
               "RelativeToolTip": "Ex3\\ManagerCandidate.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAgwCoAAAAlAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAQwCoAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T09:36:04.587Z"
+              "WhenOpened": "2024-03-08T09:36:04.587Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "CandidateC.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\CandidateC.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\DotNet_Ex\\Ex3\\Ex3\\CandidateC.cs",
               "RelativeDocumentMoniker": "Ex3\\CandidateC.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\CandidateC.cs",
+              "ToolTip": "D:\\FPT_Exercise\\DotNet_Ex\\Ex3\\Ex3\\CandidateC.cs",
               "RelativeToolTip": "Ex3\\CandidateC.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -67,51 +68,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CandidateB.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\CandidateB.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\DotNet_Ex\\Ex3\\Ex3\\CandidateB.cs",
               "RelativeDocumentMoniker": "Ex3\\CandidateB.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\CandidateB.cs",
+              "ToolTip": "D:\\FPT_Exercise\\DotNet_Ex\\Ex3\\Ex3\\CandidateB.cs",
               "RelativeToolTip": "Ex3\\CandidateB.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T09:35:49.089Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CandidateA.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\CandidateA.cs",
-              "RelativeDocumentMoniker": "Ex3\\CandidateA.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\CandidateA.cs",
-              "RelativeToolTip": "Ex3\\CandidateA.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T09:35:38.226Z"
+              "WhenOpened": "2024-03-08T09:35:49.089Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Candidate.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\Candidate.cs",
-              "RelativeDocumentMoniker": "Ex3\\Candidate.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\Candidate.cs",
-              "RelativeToolTip": "Ex3\\Candidate.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAOAAAA",
+              "Title": "CandidateA.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\DotNet_Ex\\Ex3\\Ex3\\CandidateA.cs",
+              "RelativeDocumentMoniker": "Ex3\\CandidateA.cs",
+              "ToolTip": "D:\\FPT_Exercise\\DotNet_Ex\\Ex3\\Ex3\\CandidateA.cs",
+              "RelativeToolTip": "Ex3\\CandidateA.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAkAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-08T09:35:33.922Z"
+              "WhenOpened": "2024-03-08T09:35:38.226Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\Program.cs",
-              "RelativeDocumentMoniker": "Ex3\\Program.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Ex3\\Ex3\\Program.cs",
-              "RelativeToolTip": "Ex3\\Program.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAwBkAAAAaAAAA",
+              "DocumentIndex": 2,
+              "Title": "Candidate.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\DotNet_Ex\\Ex3\\Ex3\\Candidate.cs",
+              "RelativeDocumentMoniker": "Ex3\\Candidate.cs",
+              "ToolTip": "D:\\FPT_Exercise\\DotNet_Ex\\Ex3\\Ex3\\Candidate.cs",
+              "RelativeToolTip": "Ex3\\Candidate.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-07T04:01:58.029Z"
+              "WhenOpened": "2024-03-08T09:35:33.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\DotNet_Ex\\Ex3\\Ex3\\Program.cs",
+              "RelativeDocumentMoniker": "Ex3\\Program.cs",
+              "ToolTip": "D:\\FPT_Exercise\\DotNet_Ex\\Ex3\\Ex3\\Program.cs",
+              "RelativeToolTip": "Ex3\\Program.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAYwBkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T04:01:58.029Z",
+              "EditorCaption": ""
             }
           ]
         },

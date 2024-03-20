@@ -8,7 +8,7 @@ using System.Xml.Linq;
 
 namespace Ex15
 {
-    abstract class Student : IComparer<Student>
+    abstract class Student 
     {
         public string Id { get; set; }
         public string Name { get; set; }
@@ -43,19 +43,7 @@ namespace Ex15
             InScore = stu.InScore;
             this.result = stu.result;
             StudentEduType = stu.StudentEduType;
-        }
-
-        // Year enrolled in descending order, student edu type in ascending order
-        public int Compare(Student x, Student y)
-        {
-            var studentType = x.StudentEduType.CompareTo(y.StudentEduType);
-            if (studentType != 0)
-            {
-                return studentType;
-            }
-
-            return y.YearIn - x.YearIn;   
-        }
+        }   
 
         public override string ToString()
         {
