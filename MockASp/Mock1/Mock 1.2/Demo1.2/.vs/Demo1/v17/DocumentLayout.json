@@ -1,0 +1,212 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\Demo1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ADAAC0D7-D83B-4411-B0F6-AE421214C42C}|Demo1\\Demo1.csproj|c:\\users\\dell\\source\\repos\\demo1\\demo1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADAAC0D7-D83B-4411-B0F6-AE421214C42C}|Demo1\\Demo1.csproj|solutionrelative:demo1\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADAAC0D7-D83B-4411-B0F6-AE421214C42C}|Demo1\\Demo1.csproj|c:\\users\\dell\\source\\repos\\demo1\\demo1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ADAAC0D7-D83B-4411-B0F6-AE421214C42C}|Demo1\\Demo1.csproj|solutionrelative:demo1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\Migrations\\20240329155858_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Demo1\\Migrations\\20240329155858_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADAAC0D7-D83B-4411-B0F6-AE421214C42C}|Demo1\\Demo1.csproj|c:\\users\\dell\\source\\repos\\demo1\\demo1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ADAAC0D7-D83B-4411-B0F6-AE421214C42C}|Demo1\\Demo1.csproj|solutionrelative:demo1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\Migrations\\20240329154923_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Demo1\\Migrations\\20240329154923_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADAAC0D7-D83B-4411-B0F6-AE421214C42C}|Demo1\\Demo1.csproj|c:\\users\\dell\\source\\repos\\demo1\\demo1\\models\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADAAC0D7-D83B-4411-B0F6-AE421214C42C}|Demo1\\Demo1.csproj|solutionrelative:demo1\\models\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADAAC0D7-D83B-4411-B0F6-AE421214C42C}|Demo1\\Demo1.csproj|c:\\users\\dell\\source\\repos\\demo1\\demo1\\models\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADAAC0D7-D83B-4411-B0F6-AE421214C42C}|Demo1\\Demo1.csproj|solutionrelative:demo1\\models\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADAAC0D7-D83B-4411-B0F6-AE421214C42C}|Demo1\\Demo1.csproj|c:\\users\\dell\\source\\repos\\demo1\\demo1\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADAAC0D7-D83B-4411-B0F6-AE421214C42C}|Demo1\\Demo1.csproj|solutionrelative:demo1\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADAAC0D7-D83B-4411-B0F6-AE421214C42C}|Demo1\\Demo1.csproj|c:\\users\\dell\\source\\repos\\demo1\\demo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADAAC0D7-D83B-4411-B0F6-AE421214C42C}|Demo1\\Demo1.csproj|solutionrelative:demo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADAAC0D7-D83B-4411-B0F6-AE421214C42C}|Demo1\\Demo1.csproj|c:\\users\\dell\\source\\repos\\demo1\\demo1\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADAAC0D7-D83B-4411-B0F6-AE421214C42C}|Demo1\\Demo1.csproj|solutionrelative:demo1\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADAAC0D7-D83B-4411-B0F6-AE421214C42C}|Demo1\\Demo1.csproj|c:\\users\\dell\\source\\repos\\demo1\\demo1\\entities\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ADAAC0D7-D83B-4411-B0F6-AE421214C42C}|Demo1\\Demo1.csproj|solutionrelative:demo1\\entities\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 214,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240329155858_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\Migrations\\20240329155858_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Demo1\\Migrations\\20240329155858_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\Migrations\\20240329155858_InitialCreate.cs",
+              "RelativeToolTip": "Demo1\\Migrations\\20240329155858_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T15:58:58.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20240329154923_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\Migrations\\20240329154923_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Demo1\\Migrations\\20240329154923_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\Migrations\\20240329154923_InitialCreate.cs",
+              "RelativeToolTip": "Demo1\\Migrations\\20240329154923_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T15:49:23.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Demo1\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\appsettings.Development.json",
+              "RelativeToolTip": "Demo1\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-29T10:09:58.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Demo1\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Demo1\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAIwJMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T09:24:43.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Demo1\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "Demo1\\Models\\AppDbContext.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAYwDsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T08:37:18.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\Models\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "Demo1\\Models\\StudentRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\Models\\StudentRepository.cs",
+              "RelativeToolTip": "Demo1\\Models\\StudentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T08:21:48.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\Models\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "Demo1\\Models\\IStudentRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\Models\\IStudentRepository.cs",
+              "RelativeToolTip": "Demo1\\Models\\IStudentRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA/wAgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T08:05:31.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\appsettings.json",
+              "RelativeDocumentMoniker": "Demo1\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\appsettings.json",
+              "RelativeToolTip": "Demo1\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAACyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-29T07:46:15.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\Program.cs",
+              "RelativeDocumentMoniker": "Demo1\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\Program.cs",
+              "RelativeToolTip": "Demo1\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T07:12:11.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Gender.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\Entities\\Gender.cs",
+              "RelativeDocumentMoniker": "Demo1\\Entities\\Gender.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\Entities\\Gender.cs",
+              "RelativeToolTip": "Demo1\\Entities\\Gender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T06:59:28.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "Demo1\\Entities\\Student.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\Demo1\\Demo1\\Entities\\Student.cs",
+              "RelativeToolTip": "Demo1\\Entities\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T06:56:16.872Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 186,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
