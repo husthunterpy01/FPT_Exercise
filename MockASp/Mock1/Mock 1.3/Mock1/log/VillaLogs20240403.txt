@@ -1,0 +1,1062 @@
+2024-04-03 09:35:48.476 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-04-03 09:35:48.631 +07:00 [DBG] Hosting starting
+2024-04-03 09:35:49.001 +07:00 [DBG] Connection id "0HN2JGR2TNG6Q" received FIN.
+2024-04-03 09:35:49.003 +07:00 [INF] Now listening on: https://localhost:7262
+2024-04-03 09:35:49.004 +07:00 [INF] Now listening on: http://localhost:5167
+2024-04-03 09:35:49.004 +07:00 [DBG] Loaded hosting startup assembly Mock1
+2024-04-03 09:35:49.004 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-04-03 09:35:49.004 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-04-03 09:35:49.004 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-04-03 09:35:49.009 +07:00 [DBG] Connection id "0HN2JGR2TNG6Q" accepted.
+2024-04-03 09:35:49.011 +07:00 [DBG] Connection id "0HN2JGR2TNG6Q" started.
+2024-04-03 09:35:49.083 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-04-03 09:35:49.106 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-03 09:35:49.209 +07:00 [INF] Hosting environment: Development
+2024-04-03 09:35:49.210 +07:00 [INF] Content root path: C:\Users\DELL\source\repos\Mock1\Mock1
+2024-04-03 09:35:49.210 +07:00 [DBG] Hosting started
+2024-04-03 09:35:49.215 +07:00 [DBG] Connection id "0HN2JGR2TNG6Q" stopped.
+2024-04-03 09:35:49.346 +07:00 [DBG] Connection id "0HN2JGR2TNG6Q" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-03 09:35:49.536 +07:00 [DBG] Connection id "0HN2JGR2TNG6R" accepted.
+2024-04-03 09:35:49.536 +07:00 [DBG] Connection id "0HN2JGR2TNG6R" started.
+2024-04-03 09:35:49.626 +07:00 [DBG] Connection 0HN2JGR2TNG6R established using the following protocol: "Tls12"
+2024-04-03 09:35:49.817 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/swagger/index.html - null null
+2024-04-03 09:35:50.004 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-04-03 09:35:50.040 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-04-03 09:35:50.040 +07:00 [DBG] Request did not match any endpoints
+2024-04-03 09:35:50.161 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-04-03 09:35:50.164 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-04-03 09:35:50.215 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-04-03 09:35:50.215 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-04-03 09:35:50.221 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/swagger/index.html - 200 null text/html;charset=utf-8 412.7323ms
+2024-04-03 09:35:50.250 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-03 09:35:50.250 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_vs/browserLink - null null
+2024-04-03 09:35:50.264 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 14.1022ms
+2024-04-03 09:35:50.326 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_vs/browserLink - 200 null text/javascript; charset=UTF-8 75.5855ms
+2024-04-03 09:35:52.985 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/swagger/v1/swagger.json - null null
+2024-04-03 09:35:52.987 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-04-03 09:35:52.988 +07:00 [DBG] Request did not match any endpoints
+2024-04-03 09:35:53.090 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-03 09:35:53.093 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_vs/browserLink - null null
+2024-04-03 09:35:53.093 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 3.3065ms
+2024-04-03 09:35:53.128 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.9135ms
+2024-04-03 09:35:53.251 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 266.3404ms
+2024-04-03 09:35:55.057 +07:00 [DBG] Connection id "0HN2JGR2TNG6R" received FIN.
+2024-04-03 09:35:55.059 +07:00 [DBG] The connection queue processing loop for 0HN2JGR2TNG6R completed.
+2024-04-03 09:35:55.066 +07:00 [DBG] Connection id "0HN2JGR2TNG6R" is closed. The last processed stream ID was 11.
+2024-04-03 09:35:55.066 +07:00 [DBG] Connection id "0HN2JGR2TNG6R" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-03 09:35:55.072 +07:00 [DBG] Connection id "0HN2JGR2TNG6R" stopped.
+2024-04-03 09:36:02.242 +07:00 [DBG] Connection id "0HN2JGR2TNG6S" accepted.
+2024-04-03 09:36:02.242 +07:00 [DBG] Connection id "0HN2JGR2TNG6S" started.
+2024-04-03 09:36:02.246 +07:00 [DBG] Connection 0HN2JGR2TNG6S established using the following protocol: "Tls12"
+2024-04-03 09:36:02.249 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-03 09:36:02.249 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_vs/browserLink - null null
+2024-04-03 09:36:02.254 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 5.8648ms
+2024-04-03 09:36:02.279 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_vs/browserLink - 200 null text/javascript; charset=UTF-8 29.8935ms
+2024-04-03 09:36:05.069 +07:00 [DBG] Connection id "0HN2JGR2TNG6S" received FIN.
+2024-04-03 09:36:05.069 +07:00 [DBG] Connection id "0HN2JGR2TNG6S" is closed. The last processed stream ID was 3.
+2024-04-03 09:36:05.069 +07:00 [DBG] Connection id "0HN2JGR2TNG6S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-03 09:36:05.069 +07:00 [DBG] The connection queue processing loop for 0HN2JGR2TNG6S completed.
+2024-04-03 09:36:05.070 +07:00 [DBG] Connection id "0HN2JGR2TNG6S" stopped.
+2024-04-03 09:36:12.664 +07:00 [DBG] Connection id "0HN2JGR2TNG6T" accepted.
+2024-04-03 09:36:12.678 +07:00 [DBG] Connection id "0HN2JGR2TNG6T" started.
+2024-04-03 09:36:12.705 +07:00 [DBG] Connection 0HN2JGR2TNG6T established using the following protocol: "Tls12"
+2024-04-03 09:36:12.708 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/api/VillaAPI - null null
+2024-04-03 09:36:12.718 +07:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2024-04-03 09:36:12.724 +07:00 [DBG] Endpoint 'Mock1.Controllers.VillaAPIController.GetVillas (Mock1)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2024-04-03 09:36:12.725 +07:00 [DBG] Request matched endpoint 'Mock1.Controllers.VillaAPIController.GetVillas (Mock1)'
+2024-04-03 09:36:12.730 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-03 09:36:12.734 +07:00 [INF] Executing endpoint 'Mock1.Controllers.VillaAPIController.GetVillas (Mock1)'
+2024-04-03 09:36:12.765 +07:00 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Mock1.Model.DTO.VillaDTO]] GetVillas() on controller Mock1.Controllers.VillaAPIController (Mock1).
+2024-04-03 09:36:12.767 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-03 09:36:12.767 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-03 09:36:12.768 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-03 09:36:12.768 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-03 09:36:12.768 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-03 09:36:12.770 +07:00 [DBG] Executing controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:36:12.771 +07:00 [DBG] Executed controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:36:12.778 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-03 09:36:12.780 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-04-03 09:36:12.781 +07:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-03 09:36:12.782 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-04-03 09:36:12.782 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-04-03 09:36:12.783 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-04-03 09:36:12.783 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Mock1.Model.DTO.VillaDTO, Mock1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-03 09:36:13.061 +07:00 [INF] Executed action Mock1.Controllers.VillaAPIController.GetVillas (Mock1) in 286.9066ms
+2024-04-03 09:36:13.061 +07:00 [INF] Executed endpoint 'Mock1.Controllers.VillaAPIController.GetVillas (Mock1)'
+2024-04-03 09:36:13.061 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/api/VillaAPI - 200 108 application/json; charset=utf-8 353.6133ms
+2024-04-03 09:36:55.156 +07:00 [DBG] Connection id "0HN2JGR2TNG6T" received FIN.
+2024-04-03 09:36:55.159 +07:00 [DBG] Connection id "0HN2JGR2TNG6T" is closed. The last processed stream ID was 1.
+2024-04-03 09:36:55.159 +07:00 [DBG] Connection id "0HN2JGR2TNG6T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-03 09:36:55.159 +07:00 [DBG] The connection queue processing loop for 0HN2JGR2TNG6T completed.
+2024-04-03 09:36:55.174 +07:00 [DBG] Connection id "0HN2JGR2TNG6T" stopped.
+2024-04-03 09:38:12.145 +07:00 [DBG] Connection id "0HN2JGR2TNG6U" accepted.
+2024-04-03 09:38:12.145 +07:00 [DBG] Connection id "0HN2JGR2TNG6U" started.
+2024-04-03 09:38:12.154 +07:00 [DBG] Connection 0HN2JGR2TNG6U established using the following protocol: "Tls12"
+2024-04-03 09:38:12.155 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_vs/browserLink - null null
+2024-04-03 09:38:12.155 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-03 09:38:12.163 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 7.8728ms
+2024-04-03 09:38:12.183 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.4224ms
+2024-04-03 09:38:22.025 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - null null
+2024-04-03 09:38:22.026 +07:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/0'
+2024-04-03 09:38:22.026 +07:00 [DBG] Endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/0'
+2024-04-03 09:38:22.026 +07:00 [DBG] Request matched endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:38:22.026 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-03 09:38:22.027 +07:00 [INF] Executing endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:38:22.045 +07:00 [INF] Route matched with {action = "GetVilla", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Mock1.Model.DTO.VillaDTO] GetVilla(Int32) on controller Mock1.Controllers.VillaAPIController (Mock1).
+2024-04-03 09:38:22.045 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-03 09:38:22.045 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-03 09:38:22.045 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-03 09:38:22.045 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-03 09:38:22.045 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-03 09:38:22.045 +07:00 [DBG] Executing controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:38:22.045 +07:00 [DBG] Executed controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:38:22.051 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-04-03 09:38:22.052 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-04-03 09:38:22.053 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 09:38:22.054 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 09:38:22.054 +07:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-04-03 09:38:22.056 +07:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-04-03 09:38:22.059 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-03 09:38:22.060 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2024-04-03 09:38:22.060 +07:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-03 09:38:22.060 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-04-03 09:38:22.060 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-04-03 09:38:22.060 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-04-03 09:38:22.073 +07:00 [INF] Executed action Mock1.Controllers.VillaAPIController.GetVilla (Mock1) in 28.572ms
+2024-04-03 09:38:22.074 +07:00 [INF] Executed endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:38:22.074 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - 400 164 application/problem+json; charset=utf-8 50.1706ms
+2024-04-03 09:38:29.151 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - null null
+2024-04-03 09:38:29.152 +07:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/0'
+2024-04-03 09:38:29.152 +07:00 [DBG] Endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/0'
+2024-04-03 09:38:29.152 +07:00 [DBG] Request matched endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:38:29.152 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-03 09:38:29.153 +07:00 [INF] Executing endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:38:29.153 +07:00 [INF] Route matched with {action = "GetVilla", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Mock1.Model.DTO.VillaDTO] GetVilla(Int32) on controller Mock1.Controllers.VillaAPIController (Mock1).
+2024-04-03 09:38:29.153 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-03 09:38:29.153 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-03 09:38:29.153 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-03 09:38:29.153 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-03 09:38:29.153 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-03 09:38:29.153 +07:00 [DBG] Executing controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:38:29.153 +07:00 [DBG] Executed controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:38:29.153 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-04-03 09:38:29.153 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-04-03 09:38:29.153 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 09:38:29.154 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 09:38:29.154 +07:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-04-03 09:38:29.154 +07:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-04-03 09:38:29.154 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-03 09:38:29.154 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2024-04-03 09:38:29.154 +07:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-03 09:38:29.154 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-04-03 09:38:29.154 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-04-03 09:38:29.154 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-04-03 09:38:29.155 +07:00 [INF] Executed action Mock1.Controllers.VillaAPIController.GetVilla (Mock1) in 1.6337ms
+2024-04-03 09:38:29.155 +07:00 [INF] Executed endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:38:29.155 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - 400 164 application/problem+json; charset=utf-8 3.8504ms
+2024-04-03 09:38:35.313 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/api/VillaAPI/2 - null null
+2024-04-03 09:38:35.314 +07:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/2'
+2024-04-03 09:38:35.314 +07:00 [DBG] Endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/2'
+2024-04-03 09:38:35.314 +07:00 [DBG] Request matched endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:38:35.314 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-03 09:38:35.314 +07:00 [INF] Executing endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:38:35.314 +07:00 [INF] Route matched with {action = "GetVilla", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Mock1.Model.DTO.VillaDTO] GetVilla(Int32) on controller Mock1.Controllers.VillaAPIController (Mock1).
+2024-04-03 09:38:35.314 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-03 09:38:35.314 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-03 09:38:35.314 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-03 09:38:35.314 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-03 09:38:35.314 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-03 09:38:35.314 +07:00 [DBG] Executing controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:38:35.314 +07:00 [DBG] Executed controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:38:35.314 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-04-03 09:38:35.314 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-04-03 09:38:35.314 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 09:38:35.315 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 09:38:35.315 +07:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-04-03 09:38:35.315 +07:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-04-03 09:38:35.315 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-03 09:38:35.315 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-04-03 09:38:35.315 +07:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-03 09:38:35.315 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-04-03 09:38:35.315 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-04-03 09:38:35.315 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-04-03 09:38:35.315 +07:00 [INF] Executing OkObjectResult, writing value of type 'Mock1.Model.DTO.VillaDTO'.
+2024-04-03 09:38:35.315 +07:00 [INF] Executed action Mock1.Controllers.VillaAPIController.GetVilla (Mock1) in 0.941ms
+2024-04-03 09:38:35.315 +07:00 [INF] Executed endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:38:35.315 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/api/VillaAPI/2 - 200 53 application/json; charset=utf-8 2.2689ms
+2024-04-03 09:38:45.270 +07:00 [DBG] Connection id "0HN2JGR2TNG6U" received FIN.
+2024-04-03 09:38:45.271 +07:00 [DBG] Connection id "0HN2JGR2TNG6U" is closed. The last processed stream ID was 9.
+2024-04-03 09:38:45.271 +07:00 [DBG] Connection id "0HN2JGR2TNG6U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-03 09:38:45.271 +07:00 [DBG] The connection queue processing loop for 0HN2JGR2TNG6U completed.
+2024-04-03 09:38:45.271 +07:00 [DBG] Connection id "0HN2JGR2TNG6U" stopped.
+2024-04-03 09:38:59.774 +07:00 [DBG] Connection id "0HN2JGR2TNG6V" accepted.
+2024-04-03 09:38:59.774 +07:00 [DBG] Connection id "0HN2JGR2TNG6V" started.
+2024-04-03 09:38:59.778 +07:00 [DBG] Connection 0HN2JGR2TNG6V established using the following protocol: "Tls12"
+2024-04-03 09:38:59.784 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - null null
+2024-04-03 09:38:59.784 +07:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/0'
+2024-04-03 09:38:59.784 +07:00 [DBG] Endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/0'
+2024-04-03 09:38:59.785 +07:00 [DBG] Request matched endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:38:59.787 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-03 09:38:59.787 +07:00 [INF] Executing endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:38:59.788 +07:00 [INF] Route matched with {action = "GetVilla", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Mock1.Model.DTO.VillaDTO] GetVilla(Int32) on controller Mock1.Controllers.VillaAPIController (Mock1).
+2024-04-03 09:38:59.788 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-03 09:38:59.788 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-03 09:38:59.788 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-03 09:38:59.788 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-03 09:38:59.789 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-03 09:38:59.790 +07:00 [DBG] Executing controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:38:59.790 +07:00 [DBG] Executed controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:38:59.790 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-04-03 09:38:59.790 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-04-03 09:38:59.790 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 09:38:59.790 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 09:38:59.790 +07:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-04-03 09:38:59.790 +07:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-04-03 09:38:59.795 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-03 09:38:59.796 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2024-04-03 09:38:59.796 +07:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-03 09:38:59.796 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-04-03 09:38:59.796 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-04-03 09:38:59.796 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-04-03 09:38:59.797 +07:00 [INF] Executed action Mock1.Controllers.VillaAPIController.GetVilla (Mock1) in 6.7813ms
+2024-04-03 09:38:59.797 +07:00 [INF] Executed endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:38:59.797 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - 400 164 application/problem+json; charset=utf-8 12.5553ms
+2024-04-03 09:39:25.328 +07:00 [DBG] Connection id "0HN2JGR2TNG6V" received FIN.
+2024-04-03 09:39:25.328 +07:00 [DBG] Connection id "0HN2JGR2TNG6V" is closed. The last processed stream ID was 1.
+2024-04-03 09:39:25.329 +07:00 [DBG] Connection id "0HN2JGR2TNG6V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-03 09:39:25.329 +07:00 [DBG] The connection queue processing loop for 0HN2JGR2TNG6V completed.
+2024-04-03 09:39:25.330 +07:00 [DBG] Connection id "0HN2JGR2TNG6V" stopped.
+2024-04-03 09:42:23.495 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-04-03 09:42:23.627 +07:00 [DBG] Hosting starting
+2024-04-03 09:42:23.929 +07:00 [INF] Now listening on: https://localhost:7262
+2024-04-03 09:42:23.929 +07:00 [INF] Now listening on: http://localhost:5167
+2024-04-03 09:42:23.929 +07:00 [DBG] Loaded hosting startup assembly Mock1
+2024-04-03 09:42:23.929 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-04-03 09:42:23.929 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-04-03 09:42:23.929 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-04-03 09:42:24.004 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-03 09:42:24.004 +07:00 [INF] Hosting environment: Development
+2024-04-03 09:42:24.004 +07:00 [INF] Content root path: C:\Users\DELL\source\repos\Mock1\Mock1
+2024-04-03 09:42:24.004 +07:00 [DBG] Hosting started
+2024-04-03 09:42:24.281 +07:00 [DBG] Connection id "0HN2JGUONDFPH" accepted.
+2024-04-03 09:42:24.282 +07:00 [DBG] Connection id "0HN2JGUONDFPH" started.
+2024-04-03 09:42:24.319 +07:00 [DBG] Connection id "0HN2JGUONDFPI" received FIN.
+2024-04-03 09:42:24.319 +07:00 [DBG] Connection id "0HN2JGUONDFPH" received FIN.
+2024-04-03 09:42:24.328 +07:00 [DBG] Connection id "0HN2JGUONDFPI" accepted.
+2024-04-03 09:42:24.329 +07:00 [DBG] Connection id "0HN2JGUONDFPI" started.
+2024-04-03 09:42:24.342 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-04-03 09:42:24.342 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-04-03 09:42:24.408 +07:00 [DBG] Connection id "0HN2JGUONDFPH" stopped.
+2024-04-03 09:42:24.408 +07:00 [DBG] Connection id "0HN2JGUONDFPI" stopped.
+2024-04-03 09:42:24.416 +07:00 [DBG] Connection id "0HN2JGUONDFPI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-03 09:42:24.416 +07:00 [DBG] Connection id "0HN2JGUONDFPH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-03 09:42:24.507 +07:00 [DBG] Connection id "0HN2JGUONDFPJ" accepted.
+2024-04-03 09:42:24.508 +07:00 [DBG] Connection id "0HN2JGUONDFPJ" started.
+2024-04-03 09:42:24.573 +07:00 [DBG] Connection 0HN2JGUONDFPJ established using the following protocol: "Tls12"
+2024-04-03 09:42:24.655 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/swagger/index.html - null null
+2024-04-03 09:42:24.809 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-04-03 09:42:24.834 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-04-03 09:42:24.834 +07:00 [DBG] Request did not match any endpoints
+2024-04-03 09:42:24.977 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-04-03 09:42:24.979 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-04-03 09:42:25.021 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-04-03 09:42:25.022 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-04-03 09:42:25.030 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/swagger/index.html - 200 null text/html;charset=utf-8 381.5335ms
+2024-04-03 09:42:25.035 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-03 09:42:25.044 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 9.5047ms
+2024-04-03 09:42:25.058 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_vs/browserLink - null null
+2024-04-03 09:42:25.135 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_vs/browserLink - 200 null text/javascript; charset=UTF-8 77.7929ms
+2024-04-03 09:42:27.424 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/swagger/v1/swagger.json - null null
+2024-04-03 09:42:27.427 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-04-03 09:42:27.427 +07:00 [DBG] Request did not match any endpoints
+2024-04-03 09:42:27.549 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_vs/browserLink - null null
+2024-04-03 09:42:27.550 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-03 09:42:27.556 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 6.1183ms
+2024-04-03 09:42:27.634 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_vs/browserLink - 200 null text/javascript; charset=UTF-8 84.5202ms
+2024-04-03 09:42:27.754 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 329.9496ms
+2024-04-03 09:42:35.401 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_vs/browserLink - null null
+2024-04-03 09:42:35.401 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-03 09:42:35.404 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 2.4926ms
+2024-04-03 09:42:35.449 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_vs/browserLink - 200 null text/javascript; charset=UTF-8 48.0517ms
+2024-04-03 09:42:41.220 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/api/VillaAPI - null null
+2024-04-03 09:42:41.228 +07:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2024-04-03 09:42:41.234 +07:00 [DBG] Endpoint 'Mock1.Controllers.VillaAPIController.GetVillas (Mock1)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2024-04-03 09:42:41.234 +07:00 [DBG] Request matched endpoint 'Mock1.Controllers.VillaAPIController.GetVillas (Mock1)'
+2024-04-03 09:42:41.239 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-03 09:42:41.241 +07:00 [INF] Executing endpoint 'Mock1.Controllers.VillaAPIController.GetVillas (Mock1)'
+2024-04-03 09:42:41.273 +07:00 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Mock1.Model.DTO.VillaDTO]] GetVillas() on controller Mock1.Controllers.VillaAPIController (Mock1).
+2024-04-03 09:42:41.274 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-03 09:42:41.275 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-03 09:42:41.275 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-03 09:42:41.275 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-03 09:42:41.275 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-03 09:42:41.278 +07:00 [DBG] Executing controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:42:41.279 +07:00 [DBG] Executed controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:42:41.285 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-03 09:42:41.287 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-04-03 09:42:41.288 +07:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-03 09:42:41.288 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-04-03 09:42:41.288 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-04-03 09:42:41.288 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-04-03 09:42:41.288 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Mock1.Model.DTO.VillaDTO, Mock1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-03 09:42:41.502 +07:00 [INF] Executed action Mock1.Controllers.VillaAPIController.GetVillas (Mock1) in 220.741ms
+2024-04-03 09:42:41.502 +07:00 [INF] Executed endpoint 'Mock1.Controllers.VillaAPIController.GetVillas (Mock1)'
+2024-04-03 09:42:41.502 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/api/VillaAPI - 200 108 application/json; charset=utf-8 282.2529ms
+2024-04-03 09:42:45.591 +07:00 [DBG] Connection id "0HN2JGUONDFPJ" received FIN.
+2024-04-03 09:42:45.594 +07:00 [DBG] The connection queue processing loop for 0HN2JGUONDFPJ completed.
+2024-04-03 09:42:45.601 +07:00 [DBG] Connection id "0HN2JGUONDFPJ" is closed. The last processed stream ID was 17.
+2024-04-03 09:42:45.601 +07:00 [DBG] Connection id "0HN2JGUONDFPJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-03 09:42:45.605 +07:00 [DBG] Connection id "0HN2JGUONDFPJ" stopped.
+2024-04-03 09:42:49.135 +07:00 [DBG] Connection id "0HN2JGUONDFPK" accepted.
+2024-04-03 09:42:49.135 +07:00 [DBG] Connection id "0HN2JGUONDFPK" started.
+2024-04-03 09:42:49.138 +07:00 [DBG] Connection 0HN2JGUONDFPK established using the following protocol: "Tls12"
+2024-04-03 09:42:49.140 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - null null
+2024-04-03 09:42:49.140 +07:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/0'
+2024-04-03 09:42:49.142 +07:00 [DBG] Endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/0'
+2024-04-03 09:42:49.142 +07:00 [DBG] Request matched endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:42:49.142 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-03 09:42:49.142 +07:00 [INF] Executing endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:42:49.163 +07:00 [INF] Route matched with {action = "GetVilla", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Mock1.Model.DTO.VillaDTO] GetVilla(Int32) on controller Mock1.Controllers.VillaAPIController (Mock1).
+2024-04-03 09:42:49.163 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-03 09:42:49.163 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-03 09:42:49.163 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-03 09:42:49.163 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-03 09:42:49.163 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-03 09:42:49.163 +07:00 [DBG] Executing controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:42:49.163 +07:00 [DBG] Executed controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:42:49.167 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-04-03 09:42:49.169 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-04-03 09:42:49.169 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 09:42:49.169 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 09:42:49.169 +07:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-04-03 09:42:49.171 +07:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-04-03 09:42:49.175 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-03 09:42:49.176 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2024-04-03 09:42:49.176 +07:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-03 09:42:49.176 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-04-03 09:42:49.176 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-04-03 09:42:49.176 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-04-03 09:42:49.194 +07:00 [INF] Executed action Mock1.Controllers.VillaAPIController.GetVilla (Mock1) in 30.7124ms
+2024-04-03 09:42:49.194 +07:00 [INF] Executed endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:42:49.194 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - 400 164 application/problem+json; charset=utf-8 54.7423ms
+2024-04-03 09:42:54.184 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - null null
+2024-04-03 09:42:54.184 +07:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/0'
+2024-04-03 09:42:54.184 +07:00 [DBG] Endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/0'
+2024-04-03 09:42:54.184 +07:00 [DBG] Request matched endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:42:54.185 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-03 09:42:54.185 +07:00 [INF] Executing endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:42:54.185 +07:00 [INF] Route matched with {action = "GetVilla", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Mock1.Model.DTO.VillaDTO] GetVilla(Int32) on controller Mock1.Controllers.VillaAPIController (Mock1).
+2024-04-03 09:42:54.185 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-03 09:42:54.185 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-03 09:42:54.185 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-03 09:42:54.185 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-03 09:42:54.185 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-03 09:42:54.185 +07:00 [DBG] Executing controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:42:54.185 +07:00 [DBG] Executed controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:42:54.186 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-04-03 09:42:54.186 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-04-03 09:42:54.186 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 09:42:54.186 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 09:42:54.186 +07:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-04-03 09:42:54.186 +07:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-04-03 09:42:54.187 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-03 09:42:54.187 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2024-04-03 09:42:54.187 +07:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-03 09:42:54.187 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-04-03 09:42:54.187 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-04-03 09:42:54.187 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-04-03 09:42:54.187 +07:00 [INF] Executed action Mock1.Controllers.VillaAPIController.GetVilla (Mock1) in 2.1034ms
+2024-04-03 09:42:54.187 +07:00 [INF] Executed endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:42:54.187 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - 400 164 application/problem+json; charset=utf-8 4.1203ms
+2024-04-03 09:42:54.702 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - null null
+2024-04-03 09:42:54.703 +07:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/0'
+2024-04-03 09:42:54.703 +07:00 [DBG] Endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/0'
+2024-04-03 09:42:54.703 +07:00 [DBG] Request matched endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:42:54.703 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-03 09:42:54.703 +07:00 [INF] Executing endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:42:54.703 +07:00 [INF] Route matched with {action = "GetVilla", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Mock1.Model.DTO.VillaDTO] GetVilla(Int32) on controller Mock1.Controllers.VillaAPIController (Mock1).
+2024-04-03 09:42:54.703 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-03 09:42:54.703 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-03 09:42:54.703 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-03 09:42:54.703 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-03 09:42:54.703 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-03 09:42:54.703 +07:00 [DBG] Executing controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:42:54.703 +07:00 [DBG] Executed controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:42:54.703 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-04-03 09:42:54.704 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-04-03 09:42:54.704 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 09:42:54.704 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 09:42:54.704 +07:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-04-03 09:42:54.704 +07:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-04-03 09:42:54.704 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-03 09:42:54.704 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2024-04-03 09:42:54.704 +07:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-03 09:42:54.704 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-04-03 09:42:54.704 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-04-03 09:42:54.704 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-04-03 09:42:54.704 +07:00 [INF] Executed action Mock1.Controllers.VillaAPIController.GetVilla (Mock1) in 1.0459ms
+2024-04-03 09:42:54.704 +07:00 [INF] Executed endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:42:54.704 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - 400 164 application/problem+json; charset=utf-8 2.5576ms
+2024-04-03 09:42:54.856 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - null null
+2024-04-03 09:42:54.856 +07:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/0'
+2024-04-03 09:42:54.856 +07:00 [DBG] Endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/0'
+2024-04-03 09:42:54.856 +07:00 [DBG] Request matched endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:42:54.856 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-03 09:42:54.856 +07:00 [INF] Executing endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:42:54.856 +07:00 [INF] Route matched with {action = "GetVilla", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Mock1.Model.DTO.VillaDTO] GetVilla(Int32) on controller Mock1.Controllers.VillaAPIController (Mock1).
+2024-04-03 09:42:54.856 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-03 09:42:54.856 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-03 09:42:54.856 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-03 09:42:54.856 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-03 09:42:54.856 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-03 09:42:54.857 +07:00 [DBG] Executing controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:42:54.857 +07:00 [DBG] Executed controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:42:54.857 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-04-03 09:42:54.857 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-04-03 09:42:54.857 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 09:42:54.857 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 09:42:54.857 +07:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-04-03 09:42:54.857 +07:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-04-03 09:42:54.858 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-03 09:42:54.858 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2024-04-03 09:42:54.858 +07:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-03 09:42:54.858 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-04-03 09:42:54.858 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-04-03 09:42:54.858 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-04-03 09:42:54.858 +07:00 [INF] Executed action Mock1.Controllers.VillaAPIController.GetVilla (Mock1) in 1.6975ms
+2024-04-03 09:42:54.858 +07:00 [INF] Executed endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:42:54.858 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - 400 164 application/problem+json; charset=utf-8 3.3643ms
+2024-04-03 09:42:55.022 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - null null
+2024-04-03 09:42:55.023 +07:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/0'
+2024-04-03 09:42:55.023 +07:00 [DBG] Endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/0'
+2024-04-03 09:42:55.023 +07:00 [DBG] Request matched endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:42:55.023 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-03 09:42:55.023 +07:00 [INF] Executing endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:42:55.023 +07:00 [INF] Route matched with {action = "GetVilla", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Mock1.Model.DTO.VillaDTO] GetVilla(Int32) on controller Mock1.Controllers.VillaAPIController (Mock1).
+2024-04-03 09:42:55.023 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-03 09:42:55.023 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-03 09:42:55.023 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-03 09:42:55.023 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-03 09:42:55.023 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-03 09:42:55.023 +07:00 [DBG] Executing controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:42:55.023 +07:00 [DBG] Executed controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:42:55.023 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-04-03 09:42:55.024 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-04-03 09:42:55.024 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 09:42:55.024 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 09:42:55.024 +07:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-04-03 09:42:55.024 +07:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-04-03 09:42:55.024 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-03 09:42:55.024 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2024-04-03 09:42:55.024 +07:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-03 09:42:55.024 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-04-03 09:42:55.024 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-04-03 09:42:55.024 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-04-03 09:42:55.025 +07:00 [INF] Executed action Mock1.Controllers.VillaAPIController.GetVilla (Mock1) in 1.2734ms
+2024-04-03 09:42:55.025 +07:00 [INF] Executed endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:42:55.025 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - 400 164 application/problem+json; charset=utf-8 2.7422ms
+2024-04-03 09:42:55.176 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - null null
+2024-04-03 09:42:55.176 +07:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/0'
+2024-04-03 09:42:55.176 +07:00 [DBG] Endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/0'
+2024-04-03 09:42:55.176 +07:00 [DBG] Request matched endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:42:55.176 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-03 09:42:55.176 +07:00 [INF] Executing endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:42:55.176 +07:00 [INF] Route matched with {action = "GetVilla", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Mock1.Model.DTO.VillaDTO] GetVilla(Int32) on controller Mock1.Controllers.VillaAPIController (Mock1).
+2024-04-03 09:42:55.176 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-03 09:42:55.177 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-03 09:42:55.177 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-03 09:42:55.177 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-03 09:42:55.177 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-03 09:42:55.177 +07:00 [DBG] Executing controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:42:55.177 +07:00 [DBG] Executed controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:42:55.177 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-04-03 09:42:55.177 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-04-03 09:42:55.177 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 09:42:55.177 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 09:42:55.177 +07:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-04-03 09:42:55.177 +07:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-04-03 09:42:55.177 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-03 09:42:55.177 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2024-04-03 09:42:55.178 +07:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-03 09:42:55.178 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-04-03 09:42:55.178 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-04-03 09:42:55.178 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-04-03 09:42:55.178 +07:00 [INF] Executed action Mock1.Controllers.VillaAPIController.GetVilla (Mock1) in 1.175ms
+2024-04-03 09:42:55.178 +07:00 [INF] Executed endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:42:55.178 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - 400 164 application/problem+json; charset=utf-8 2.6726ms
+2024-04-03 09:42:55.351 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - null null
+2024-04-03 09:42:55.351 +07:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/0'
+2024-04-03 09:42:55.351 +07:00 [DBG] Endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/0'
+2024-04-03 09:42:55.351 +07:00 [DBG] Request matched endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:42:55.352 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-03 09:42:55.352 +07:00 [INF] Executing endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:42:55.352 +07:00 [INF] Route matched with {action = "GetVilla", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Mock1.Model.DTO.VillaDTO] GetVilla(Int32) on controller Mock1.Controllers.VillaAPIController (Mock1).
+2024-04-03 09:42:55.352 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-03 09:42:55.352 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-03 09:42:55.352 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-03 09:42:55.352 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-03 09:42:55.352 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-03 09:42:55.352 +07:00 [DBG] Executing controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:42:55.352 +07:00 [DBG] Executed controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 09:42:55.352 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-04-03 09:42:55.352 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-04-03 09:42:55.352 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 09:42:55.352 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 09:42:55.352 +07:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-04-03 09:42:55.352 +07:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-04-03 09:42:55.353 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-03 09:42:55.353 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2024-04-03 09:42:55.353 +07:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-03 09:42:55.353 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-04-03 09:42:55.353 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-04-03 09:42:55.353 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-04-03 09:42:55.353 +07:00 [INF] Executed action Mock1.Controllers.VillaAPIController.GetVilla (Mock1) in 1.3359ms
+2024-04-03 09:42:55.353 +07:00 [INF] Executed endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 09:42:55.353 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - 400 164 application/problem+json; charset=utf-8 3.002ms
+2024-04-03 09:43:20.541 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-03 09:43:20.543 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_vs/browserLink - null null
+2024-04-03 09:43:20.550 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 8.2032ms
+2024-04-03 09:43:20.577 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.0195ms
+2024-04-03 09:43:50.659 +07:00 [DBG] Connection id "0HN2JGUONDFPK" received FIN.
+2024-04-03 09:43:50.659 +07:00 [DBG] Connection id "0HN2JGUONDFPK" is closed. The last processed stream ID was 17.
+2024-04-03 09:43:50.660 +07:00 [DBG] Connection id "0HN2JGUONDFPK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-03 09:43:50.661 +07:00 [DBG] Connection id "0HN2JGUONDFPK" reset.
+2024-04-03 09:43:50.661 +07:00 [DBG] The connection queue processing loop for 0HN2JGUONDFPK completed.
+2024-04-03 09:43:50.666 +07:00 [DBG] Connection id "0HN2JGUONDFPK" stopped.
+2024-04-03 10:02:42.718 +07:00 [DBG] Connection id "0HN2JGUONDFPL" accepted.
+2024-04-03 10:02:42.719 +07:00 [DBG] Connection id "0HN2JGUONDFPL" started.
+2024-04-03 10:02:42.734 +07:00 [DBG] Connection 0HN2JGUONDFPL established using the following protocol: "Tls12"
+2024-04-03 10:02:42.773 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/api/VillaAPI - null null
+2024-04-03 10:02:42.774 +07:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI'
+2024-04-03 10:02:42.774 +07:00 [DBG] Endpoint 'Mock1.Controllers.VillaAPIController.GetVillas (Mock1)' with route pattern 'api/VillaAPI' is valid for the request path '/api/VillaAPI'
+2024-04-03 10:02:42.774 +07:00 [DBG] Request matched endpoint 'Mock1.Controllers.VillaAPIController.GetVillas (Mock1)'
+2024-04-03 10:02:42.774 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-03 10:02:42.775 +07:00 [INF] Executing endpoint 'Mock1.Controllers.VillaAPIController.GetVillas (Mock1)'
+2024-04-03 10:02:42.780 +07:00 [INF] Route matched with {action = "GetVillas", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[Mock1.Model.DTO.VillaDTO]] GetVillas() on controller Mock1.Controllers.VillaAPIController (Mock1).
+2024-04-03 10:02:42.780 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-03 10:02:42.780 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-03 10:02:42.781 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-03 10:02:42.781 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-03 10:02:42.781 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-03 10:02:42.781 +07:00 [DBG] Executing controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 10:02:42.781 +07:00 [DBG] Executed controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 10:02:42.785 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-03 10:02:42.785 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-04-03 10:02:42.785 +07:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-03 10:02:42.787 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-04-03 10:02:42.788 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-04-03 10:02:42.788 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-04-03 10:02:42.788 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Mock1.Model.DTO.VillaDTO, Mock1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-03 10:02:42.789 +07:00 [INF] Executed action Mock1.Controllers.VillaAPIController.GetVillas (Mock1) in 7.6883ms
+2024-04-03 10:02:42.790 +07:00 [INF] Executed endpoint 'Mock1.Controllers.VillaAPIController.GetVillas (Mock1)'
+2024-04-03 10:02:42.790 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/api/VillaAPI - 200 108 application/json; charset=utf-8 18.3496ms
+2024-04-03 10:03:14.457 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - null null
+2024-04-03 10:03:14.457 +07:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/0'
+2024-04-03 10:03:14.457 +07:00 [DBG] Endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/0'
+2024-04-03 10:03:14.457 +07:00 [DBG] Request matched endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 10:03:14.457 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-03 10:03:14.457 +07:00 [INF] Executing endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 10:03:14.457 +07:00 [INF] Route matched with {action = "GetVilla", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Mock1.Model.DTO.VillaDTO] GetVilla(Int32) on controller Mock1.Controllers.VillaAPIController (Mock1).
+2024-04-03 10:03:14.458 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-03 10:03:14.458 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-03 10:03:14.458 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-03 10:03:14.458 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-03 10:03:14.458 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-03 10:03:14.458 +07:00 [DBG] Executing controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 10:03:14.458 +07:00 [DBG] Executed controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 10:03:14.458 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-04-03 10:03:14.458 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-04-03 10:03:14.458 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 10:03:14.458 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 10:03:14.458 +07:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-04-03 10:03:14.458 +07:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-04-03 10:03:14.459 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-03 10:03:14.459 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2024-04-03 10:03:14.459 +07:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-03 10:03:14.459 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-04-03 10:03:14.459 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-04-03 10:03:14.459 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-04-03 10:03:14.459 +07:00 [INF] Executed action Mock1.Controllers.VillaAPIController.GetVilla (Mock1) in 1.5068ms
+2024-04-03 10:03:14.459 +07:00 [INF] Executed endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 10:03:14.459 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - 400 164 application/problem+json; charset=utf-8 3.1055ms
+2024-04-03 10:03:19.983 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/api/VillaAPI/1 - null null
+2024-04-03 10:03:19.984 +07:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/1'
+2024-04-03 10:03:19.984 +07:00 [DBG] Endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/1'
+2024-04-03 10:03:19.984 +07:00 [DBG] Request matched endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 10:03:19.984 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-03 10:03:19.984 +07:00 [INF] Executing endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 10:03:19.984 +07:00 [INF] Route matched with {action = "GetVilla", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Mock1.Model.DTO.VillaDTO] GetVilla(Int32) on controller Mock1.Controllers.VillaAPIController (Mock1).
+2024-04-03 10:03:19.984 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-03 10:03:19.984 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-03 10:03:19.984 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-03 10:03:19.984 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-03 10:03:19.984 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-03 10:03:19.984 +07:00 [DBG] Executing controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 10:03:19.984 +07:00 [DBG] Executed controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 10:03:19.984 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-04-03 10:03:19.984 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-04-03 10:03:19.985 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 10:03:19.985 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 10:03:19.985 +07:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-04-03 10:03:19.985 +07:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-04-03 10:03:19.985 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-03 10:03:19.985 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2024-04-03 10:03:19.985 +07:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-03 10:03:19.985 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-04-03 10:03:19.985 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-04-03 10:03:19.985 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-04-03 10:03:19.985 +07:00 [INF] Executing OkObjectResult, writing value of type 'Mock1.Model.DTO.VillaDTO'.
+2024-04-03 10:03:19.985 +07:00 [INF] Executed action Mock1.Controllers.VillaAPIController.GetVilla (Mock1) in 1.1703ms
+2024-04-03 10:03:19.985 +07:00 [INF] Executed endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 10:03:19.986 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/api/VillaAPI/1 - 200 52 application/json; charset=utf-8 2.5992ms
+2024-04-03 10:20:30.477 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-04-03 10:20:30.652 +07:00 [DBG] Hosting starting
+2024-04-03 10:20:30.977 +07:00 [INF] Now listening on: https://localhost:7262
+2024-04-03 10:20:30.977 +07:00 [INF] Now listening on: http://localhost:5167
+2024-04-03 10:20:30.977 +07:00 [DBG] Loaded hosting startup assembly Mock1
+2024-04-03 10:20:30.977 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-04-03 10:20:30.977 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-04-03 10:20:30.977 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-04-03 10:20:31.037 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-03 10:20:31.037 +07:00 [INF] Hosting environment: Development
+2024-04-03 10:20:31.037 +07:00 [INF] Content root path: C:\Users\DELL\source\repos\Mock1\Mock1
+2024-04-03 10:20:31.038 +07:00 [DBG] Hosting started
+2024-04-03 10:20:31.130 +07:00 [DBG] Connection id "0HN2JHK28GDUR" received FIN.
+2024-04-03 10:20:31.136 +07:00 [DBG] Connection id "0HN2JHK28GDUR" accepted.
+2024-04-03 10:20:31.137 +07:00 [DBG] Connection id "0HN2JHK28GDUR" started.
+2024-04-03 10:20:31.164 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-04-03 10:20:31.238 +07:00 [DBG] Connection id "0HN2JHK28GDUR" stopped.
+2024-04-03 10:20:31.248 +07:00 [DBG] Connection id "0HN2JHK28GDUR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-03 10:20:31.339 +07:00 [DBG] Connection id "0HN2JHK28GDUS" accepted.
+2024-04-03 10:20:31.340 +07:00 [DBG] Connection id "0HN2JHK28GDUS" started.
+2024-04-03 10:20:31.421 +07:00 [DBG] Connection 0HN2JHK28GDUS established using the following protocol: "Tls12"
+2024-04-03 10:20:31.509 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/swagger/index.html - null null
+2024-04-03 10:20:31.673 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-04-03 10:20:31.710 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-04-03 10:20:31.711 +07:00 [DBG] Request did not match any endpoints
+2024-04-03 10:20:31.800 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-04-03 10:20:31.802 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-04-03 10:20:31.825 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-04-03 10:20:31.825 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-04-03 10:20:31.831 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/swagger/index.html - 200 null text/html;charset=utf-8 330.7844ms
+2024-04-03 10:20:31.851 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-03 10:20:31.871 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 19.7215ms
+2024-04-03 10:20:31.879 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_vs/browserLink - null null
+2024-04-03 10:20:31.949 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_vs/browserLink - 200 null text/javascript; charset=UTF-8 70.0794ms
+2024-04-03 10:20:33.754 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-03 10:20:33.757 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 2.7255ms
+2024-04-03 10:20:33.784 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_vs/browserLink - null null
+2024-04-03 10:20:33.825 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.9157ms
+2024-04-03 10:20:34.300 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/swagger/v1/swagger.json - null null
+2024-04-03 10:20:34.302 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-04-03 10:20:34.302 +07:00 [DBG] Request did not match any endpoints
+2024-04-03 10:20:34.389 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-03 10:20:34.390 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_vs/browserLink - null null
+2024-04-03 10:20:34.391 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 1.9259ms
+2024-04-03 10:20:34.427 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.2144ms
+2024-04-03 10:20:34.556 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 256.2874ms
+2024-04-03 10:20:41.168 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - null null
+2024-04-03 10:20:41.175 +07:00 [DBG] 1 candidate(s) found for the request path '/api/VillaAPI/0'
+2024-04-03 10:20:41.179 +07:00 [DBG] Endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)' with route pattern 'api/VillaAPI/{id:int}' is valid for the request path '/api/VillaAPI/0'
+2024-04-03 10:20:41.180 +07:00 [DBG] Request matched endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 10:20:41.183 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-04-03 10:20:41.185 +07:00 [INF] Executing endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 10:20:41.224 +07:00 [INF] Route matched with {action = "GetVilla", controller = "VillaAPI"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Mock1.Model.DTO.VillaDTO] GetVilla(Int32) on controller Mock1.Controllers.VillaAPIController (Mock1).
+2024-04-03 10:20:41.225 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-04-03 10:20:41.226 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-04-03 10:20:41.226 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2024-04-03 10:20:41.226 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-04-03 10:20:41.226 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2024-04-03 10:20:41.228 +07:00 [DBG] Executing controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 10:20:41.228 +07:00 [DBG] Executed controller factory for controller Mock1.Controllers.VillaAPIController (Mock1)
+2024-04-03 10:20:41.246 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2024-04-03 10:20:41.247 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2024-04-03 10:20:41.248 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 10:20:41.248 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2024-04-03 10:20:41.248 +07:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2024-04-03 10:20:41.249 +07:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2024-04-03 10:20:41.255 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter"]
+2024-04-03 10:20:41.258 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]' and explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'. The content types in the accept header must be a subset of the explicitly set content types.
+2024-04-03 10:20:41.258 +07:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2024-04-03 10:20:41.258 +07:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2024-04-03 10:20:41.259 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2024-04-03 10:20:41.259 +07:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2024-04-03 10:20:41.490 +07:00 [INF] Executed action Mock1.Controllers.VillaAPIController.GetVilla (Mock1) in 257.9012ms
+2024-04-03 10:20:41.490 +07:00 [INF] Executed endpoint 'Mock1.Controllers.VillaAPIController.GetVilla (Mock1)'
+2024-04-03 10:20:41.490 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/api/VillaAPI/0 - 400 164 application/problem+json; charset=utf-8 322.187ms
+2024-04-03 10:33:48.020 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-03 10:33:48.788 +07:00 [DBG] Entity Framework Core 8.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.3' with options: None
+2024-04-03 10:33:49.528 +07:00 [DBG] 'ApplicationDbContext' disposed.
+2024-04-03 10:33:59.972 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-03 10:34:00.704 +07:00 [DBG] Entity Framework Core 8.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.3' with options: None
+2024-04-03 10:34:00.719 +07:00 [DBG] Creating DbConnection.
+2024-04-03 10:34:00.755 +07:00 [DBG] Created DbConnection. (29ms).
+2024-04-03 10:34:00.760 +07:00 [DBG] Migrating using database '' on server ''.
+2024-04-03 10:34:00.768 +07:00 [DBG] Opening connection to database '' on server ''.
+2024-04-03 10:34:00.920 +07:00 [DBG] An error occurred using the connection to database '' on server ''.
+2024-04-03 10:34:00.931 +07:00 [DBG] 'ApplicationDbContext' disposed.
+2024-04-03 10:34:00.934 +07:00 [DBG] Disposing connection to database '' on server ''.
+2024-04-03 10:34:00.939 +07:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-04-03 10:34:41.983 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-03 10:34:42.662 +07:00 [DBG] Entity Framework Core 8.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.3' with options: None
+2024-04-03 10:34:42.678 +07:00 [DBG] Creating DbConnection.
+2024-04-03 10:34:42.693 +07:00 [DBG] Created DbConnection. (10ms).
+2024-04-03 10:34:42.697 +07:00 [DBG] Migrating using database '' on server ''.
+2024-04-03 10:34:42.703 +07:00 [DBG] Opening connection to database '' on server ''.
+2024-04-03 10:34:42.808 +07:00 [DBG] An error occurred using the connection to database '' on server ''.
+2024-04-03 10:34:42.819 +07:00 [DBG] 'ApplicationDbContext' disposed.
+2024-04-03 10:34:42.823 +07:00 [DBG] Disposing connection to database '' on server ''.
+2024-04-03 10:34:42.830 +07:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-04-03 10:35:06.176 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-03 10:35:06.854 +07:00 [DBG] Entity Framework Core 8.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.3' with options: None
+2024-04-03 10:35:07.493 +07:00 [DBG] 'ApplicationDbContext' disposed.
+2024-04-03 10:35:12.145 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-03 10:35:12.802 +07:00 [DBG] Entity Framework Core 8.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.3' with options: None
+2024-04-03 10:35:12.818 +07:00 [DBG] Creating DbConnection.
+2024-04-03 10:35:12.831 +07:00 [DBG] Created DbConnection. (9ms).
+2024-04-03 10:35:12.834 +07:00 [DBG] Migrating using database '' on server ''.
+2024-04-03 10:35:12.840 +07:00 [DBG] Opening connection to database '' on server ''.
+2024-04-03 10:35:12.939 +07:00 [DBG] An error occurred using the connection to database '' on server ''.
+2024-04-03 10:35:12.948 +07:00 [DBG] 'ApplicationDbContext' disposed.
+2024-04-03 10:35:12.952 +07:00 [DBG] Disposing connection to database '' on server ''.
+2024-04-03 10:35:12.958 +07:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2024-04-03 10:36:11.047 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-03 10:36:11.743 +07:00 [DBG] Entity Framework Core 8.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.3' with options: None
+2024-04-03 10:36:11.760 +07:00 [DBG] Creating DbConnection.
+2024-04-03 10:36:11.807 +07:00 [DBG] Created DbConnection. (43ms).
+2024-04-03 10:36:11.811 +07:00 [DBG] Migrating using database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:11.817 +07:00 [DBG] Opening connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.112 +07:00 [DBG] An error occurred using the connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.113 +07:00 [DBG] Opening connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.114 +07:00 [DBG] An error occurred using the connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.162 +07:00 [DBG] Creating DbConnection.
+2024-04-03 10:36:12.162 +07:00 [DBG] Created DbConnection. (0ms).
+2024-04-03 10:36:12.162 +07:00 [DBG] Opening connection to database 'master' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.185 +07:00 [DBG] Opened connection to database 'master' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.192 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-04-03 10:36:12.199 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (6ms).
+2024-04-03 10:36:12.201 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (11ms).
+2024-04-03 10:36:12.208 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Villa];
+2024-04-03 10:36:12.457 +07:00 [INF] Executed DbCommand (247ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+CREATE DATABASE [Villa];
+2024-04-03 10:36:12.458 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-04-03 10:36:12.458 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-03 10:36:12.458 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-03 10:36:12.458 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Villa] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2024-04-03 10:36:12.542 +07:00 [INF] Executed DbCommand (84ms) [Parameters=[], CommandType='"Text"', CommandTimeout='60']
+IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [Villa] SET READ_COMMITTED_SNAPSHOT ON;
+END;
+2024-04-03 10:36:12.543 +07:00 [DBG] Closing connection to database 'master' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.551 +07:00 [DBG] Closed connection to database 'master' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01' (4ms).
+2024-04-03 10:36:12.554 +07:00 [DBG] Disposing connection to database 'master' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.555 +07:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-04-03 10:36:12.555 +07:00 [DBG] Opening connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.561 +07:00 [DBG] Opened connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.561 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-04-03 10:36:12.561 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-03 10:36:12.561 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-03 10:36:12.561 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-03 10:36:12.567 +07:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-03 10:36:12.567 +07:00 [DBG] Closing connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.567 +07:00 [DBG] Closed connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01' (0ms).
+2024-04-03 10:36:12.671 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-04-03 10:36:12.671 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-03 10:36:12.671 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-03 10:36:12.671 +07:00 [DBG] Opening connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.672 +07:00 [DBG] Opened connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.672 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-04-03 10:36:12.679 +07:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-04-03 10:36:12.679 +07:00 [DBG] Closing connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.679 +07:00 [DBG] Closed connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01' (0ms).
+2024-04-03 10:36:12.680 +07:00 [DBG] Opening connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.680 +07:00 [DBG] Opened connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.680 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-04-03 10:36:12.680 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-03 10:36:12.680 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-03 10:36:12.680 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-03 10:36:12.681 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-03 10:36:12.681 +07:00 [DBG] Closing connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.681 +07:00 [DBG] Closed connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01' (0ms).
+2024-04-03 10:36:12.685 +07:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-04-03 10:36:12.685 +07:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-04-03 10:36:12.685 +07:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-04-03 10:36:12.685 +07:00 [DBG] Opening connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.685 +07:00 [DBG] Opened connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.686 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-03 10:36:12.704 +07:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-03 10:36:12.704 +07:00 [DBG] Closing connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.705 +07:00 [DBG] Closed connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01' (1ms).
+2024-04-03 10:36:12.706 +07:00 [DBG] Opening connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.706 +07:00 [DBG] Opened connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.706 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-04-03 10:36:12.706 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-04-03 10:36:12.706 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-04-03 10:36:12.707 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-04-03 10:36:12.717 +07:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-04-03 10:36:12.718 +07:00 [DBG] Closing data reader to 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.719 +07:00 [DBG] A data reader for 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01' is being disposed after spending 1ms reading results.
+2024-04-03 10:36:12.719 +07:00 [DBG] Closing connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.719 +07:00 [DBG] Closed connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01' (0ms).
+2024-04-03 10:36:12.732 +07:00 [INF] Applying migration '20240403033507_VillaContext'.
+2024-04-03 10:36:12.751 +07:00 [DBG] Opening connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.751 +07:00 [DBG] Opened connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.753 +07:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-04-03 10:36:12.761 +07:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2024-04-03 10:36:12.761 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-04-03 10:36:12.761 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-03 10:36:12.762 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-03 10:36:12.762 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Villas] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Details] nvarchar(max) NOT NULL,
+    [Rate] float NOT NULL,
+    [Occupancy] int NOT NULL,
+    [ImageUrl] nvarchar(max) NOT NULL,
+    [Amenity] nvarchar(max) NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [UpdatedDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Villas] PRIMARY KEY ([Id])
+);
+2024-04-03 10:36:12.768 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Villas] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Details] nvarchar(max) NOT NULL,
+    [Rate] float NOT NULL,
+    [Occupancy] int NOT NULL,
+    [ImageUrl] nvarchar(max) NOT NULL,
+    [Amenity] nvarchar(max) NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [UpdatedDate] datetime2 NOT NULL,
+    CONSTRAINT [PK_Villas] PRIMARY KEY ([Id])
+);
+2024-04-03 10:36:12.768 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-04-03 10:36:12.768 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-03 10:36:12.768 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-03 10:36:12.768 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240403033507_VillaContext', N'8.0.3');
+2024-04-03 10:36:12.771 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240403033507_VillaContext', N'8.0.3');
+2024-04-03 10:36:12.772 +07:00 [DBG] Committing transaction.
+2024-04-03 10:36:12.775 +07:00 [DBG] Committed transaction.
+2024-04-03 10:36:12.776 +07:00 [DBG] Disposing transaction.
+2024-04-03 10:36:12.776 +07:00 [DBG] Closing connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.776 +07:00 [DBG] Closed connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01' (0ms).
+2024-04-03 10:36:12.777 +07:00 [DBG] 'ApplicationDbContext' disposed.
+2024-04-03 10:36:12.778 +07:00 [DBG] Disposing connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:36:12.778 +07:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-04-03 10:52:01.019 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-03 10:52:01.903 +07:00 [DBG] Entity Framework Core 8.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.3' with options: None
+2024-04-03 10:52:02.560 +07:00 [DBG] 'ApplicationDbContext' disposed.
+2024-04-03 10:52:10.916 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-04-03 10:52:11.714 +07:00 [DBG] Entity Framework Core 8.0.3 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.3' with options: None
+2024-04-03 10:52:11.729 +07:00 [DBG] Creating DbConnection.
+2024-04-03 10:52:11.768 +07:00 [DBG] Created DbConnection. (35ms).
+2024-04-03 10:52:11.772 +07:00 [DBG] Migrating using database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:52:11.777 +07:00 [DBG] Opening connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:52:12.004 +07:00 [DBG] Opened connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:52:12.010 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-04-03 10:52:12.017 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (5ms).
+2024-04-03 10:52:12.018 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (10ms).
+2024-04-03 10:52:12.024 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-03 10:52:12.050 +07:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-03 10:52:12.051 +07:00 [DBG] Closing connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:52:12.059 +07:00 [DBG] Closed connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01' (3ms).
+2024-04-03 10:52:12.063 +07:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-04-03 10:52:12.064 +07:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-04-03 10:52:12.064 +07:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-04-03 10:52:12.064 +07:00 [DBG] Opening connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:52:12.064 +07:00 [DBG] Opened connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:52:12.065 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-03 10:52:12.083 +07:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-03 10:52:12.083 +07:00 [DBG] Closing connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:52:12.084 +07:00 [DBG] Closed connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01' (1ms).
+2024-04-03 10:52:12.085 +07:00 [DBG] Opening connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:52:12.085 +07:00 [DBG] Opened connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:52:12.085 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-04-03 10:52:12.085 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-03 10:52:12.085 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-03 10:52:12.085 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-03 10:52:12.088 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-03 10:52:12.088 +07:00 [DBG] Closing connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:52:12.088 +07:00 [DBG] Closed connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01' (0ms).
+2024-04-03 10:52:12.088 +07:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-04-03 10:52:12.088 +07:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-04-03 10:52:12.088 +07:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-04-03 10:52:12.088 +07:00 [DBG] Opening connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:52:12.088 +07:00 [DBG] Opened connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:52:12.088 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-03 10:52:12.089 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-03 10:52:12.089 +07:00 [DBG] Closing connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:52:12.089 +07:00 [DBG] Closed connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01' (0ms).
+2024-04-03 10:52:12.110 +07:00 [DBG] Opening connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:52:12.110 +07:00 [DBG] Opened connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:52:12.111 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-04-03 10:52:12.111 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-04-03 10:52:12.111 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-04-03 10:52:12.111 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-04-03 10:52:12.113 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-04-03 10:52:12.115 +07:00 [DBG] Closing data reader to 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:52:12.116 +07:00 [DBG] A data reader for 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01' is being disposed after spending 1ms reading results.
+2024-04-03 10:52:12.116 +07:00 [DBG] Closing connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:52:12.116 +07:00 [DBG] Closed connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01' (0ms).
+2024-04-03 10:52:12.127 +07:00 [INF] Applying migration '20240403035202_SeedVillaTable'.
+2024-04-03 10:52:12.183 +07:00 [DBG] Executing 2 update commands as a batch.
+2024-04-03 10:52:12.196 +07:00 [DBG] Opening connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:52:12.196 +07:00 [DBG] Opened connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:52:12.198 +07:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-04-03 10:52:12.207 +07:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2024-04-03 10:52:12.208 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-04-03 10:52:12.208 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-03 10:52:12.209 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-03 10:52:12.209 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedDate', N'Details', N'ImageUrl', N'Name', N'Occupancy', N'Rate', N'UpdatedDate') AND [object_id] = OBJECT_ID(N'[Villas]'))
+    SET IDENTITY_INSERT [Villas] ON;
+INSERT INTO [Villas] ([Id], [Amenity], [CreatedDate], [Details], [ImageUrl], [Name], [Occupancy], [Rate], [UpdatedDate])
+VALUES (1, N'Private pool, ocean view', '2024-04-03T10:52:01.9229211+07:00', N'This villa offers breathtaking views of the ocean and comes with a private pool.', N'https://example.com/villa1.jpg', N'Luxury Villa', 8, 500.0E0, '2024-04-03T10:52:01.9229226+07:00'),
+(2, N'Mountain view, fireplace', '2024-04-03T10:52:01.9229229+07:00', N'Escape to this cozy villa nestled in the mountains, perfect for a romantic getaway.', N'https://example.com/villa2.jpg', N'Cozy Retreat', 4, 300.0E0, '2024-04-03T10:52:01.9229230+07:00');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedDate', N'Details', N'ImageUrl', N'Name', N'Occupancy', N'Rate', N'UpdatedDate') AND [object_id] = OBJECT_ID(N'[Villas]'))
+    SET IDENTITY_INSERT [Villas] OFF;
+2024-04-03 10:52:12.227 +07:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedDate', N'Details', N'ImageUrl', N'Name', N'Occupancy', N'Rate', N'UpdatedDate') AND [object_id] = OBJECT_ID(N'[Villas]'))
+    SET IDENTITY_INSERT [Villas] ON;
+INSERT INTO [Villas] ([Id], [Amenity], [CreatedDate], [Details], [ImageUrl], [Name], [Occupancy], [Rate], [UpdatedDate])
+VALUES (1, N'Private pool, ocean view', '2024-04-03T10:52:01.9229211+07:00', N'This villa offers breathtaking views of the ocean and comes with a private pool.', N'https://example.com/villa1.jpg', N'Luxury Villa', 8, 500.0E0, '2024-04-03T10:52:01.9229226+07:00'),
+(2, N'Mountain view, fireplace', '2024-04-03T10:52:01.9229229+07:00', N'Escape to this cozy villa nestled in the mountains, perfect for a romantic getaway.', N'https://example.com/villa2.jpg', N'Cozy Retreat', 4, 300.0E0, '2024-04-03T10:52:01.9229230+07:00');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'Amenity', N'CreatedDate', N'Details', N'ImageUrl', N'Name', N'Occupancy', N'Rate', N'UpdatedDate') AND [object_id] = OBJECT_ID(N'[Villas]'))
+    SET IDENTITY_INSERT [Villas] OFF;
+2024-04-03 10:52:12.227 +07:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-04-03 10:52:12.227 +07:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-03 10:52:12.227 +07:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-04-03 10:52:12.227 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240403035202_SeedVillaTable', N'8.0.3');
+2024-04-03 10:52:12.228 +07:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240403035202_SeedVillaTable', N'8.0.3');
+2024-04-03 10:52:12.229 +07:00 [DBG] Committing transaction.
+2024-04-03 10:52:12.231 +07:00 [DBG] Committed transaction.
+2024-04-03 10:52:12.232 +07:00 [DBG] Disposing transaction.
+2024-04-03 10:52:12.232 +07:00 [DBG] Closing connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:52:12.232 +07:00 [DBG] Closed connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01' (0ms).
+2024-04-03 10:52:12.233 +07:00 [DBG] 'ApplicationDbContext' disposed.
+2024-04-03 10:52:12.235 +07:00 [DBG] Disposing connection to database 'Villa' on server 'DESKTOP-8TK8G1A\MSSQLSERVER01'.
+2024-04-03 10:52:12.236 +07:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2024-04-03 14:00:47.608 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-04-03 14:00:47.747 +07:00 [DBG] Hosting starting
+2024-04-03 14:00:48.094 +07:00 [INF] Now listening on: https://localhost:7262
+2024-04-03 14:00:48.094 +07:00 [INF] Now listening on: http://localhost:5167
+2024-04-03 14:00:48.094 +07:00 [DBG] Loaded hosting startup assembly Mock1
+2024-04-03 14:00:48.094 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-04-03 14:00:48.094 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-04-03 14:00:48.095 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-04-03 14:00:48.162 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-03 14:00:48.163 +07:00 [INF] Hosting environment: Development
+2024-04-03 14:00:48.163 +07:00 [INF] Content root path: C:\Users\DELL\source\repos\Mock1\Mock1
+2024-04-03 14:00:48.163 +07:00 [DBG] Hosting started
+2024-04-03 14:00:48.496 +07:00 [DBG] Connection id "0HN2JLF5B4E8U" received FIN.
+2024-04-03 14:00:48.501 +07:00 [DBG] Connection id "0HN2JLF5B4E8U" accepted.
+2024-04-03 14:00:48.501 +07:00 [DBG] Connection id "0HN2JLF5B4E8U" started.
+2024-04-03 14:00:48.528 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-04-03 14:00:48.662 +07:00 [DBG] Connection id "0HN2JLF5B4E8U" stopped.
+2024-04-03 14:00:48.668 +07:00 [DBG] Connection id "0HN2JLF5B4E8U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-03 14:00:48.963 +07:00 [DBG] Connection id "0HN2JLF5B4E8V" accepted.
+2024-04-03 14:00:48.964 +07:00 [DBG] Connection id "0HN2JLF5B4E8V" started.
+2024-04-03 14:00:49.054 +07:00 [DBG] Connection 0HN2JLF5B4E8V established using the following protocol: "Tls12"
+2024-04-03 14:00:49.145 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/swagger/index.html - null null
+2024-04-03 14:00:49.336 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-04-03 14:00:49.367 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-04-03 14:00:49.367 +07:00 [DBG] Request did not match any endpoints
+2024-04-03 14:00:49.490 +07:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-04-03 14:00:49.491 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-04-03 14:00:49.512 +07:00 [DBG] Response markup was updated to include Browser Link script injection.
+2024-04-03 14:00:49.513 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-04-03 14:00:49.516 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/swagger/index.html - 200 null text/html;charset=utf-8 380.0923ms
+2024-04-03 14:00:49.580 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-03 14:00:49.591 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 10.3607ms
+2024-04-03 14:00:49.828 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_vs/browserLink - null null
+2024-04-03 14:00:50.368 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_vs/browserLink - 200 null text/javascript; charset=UTF-8 540.0453ms
+2024-04-03 14:00:52.182 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/swagger/v1/swagger.json - null null
+2024-04-03 14:00:52.183 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-04-03 14:00:52.183 +07:00 [DBG] Request did not match any endpoints
+2024-04-03 14:00:52.303 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_vs/browserLink - null null
+2024-04-03 14:00:52.303 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-03 14:00:52.305 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_framework/aspnetcore-browser-refresh.js - 200 13746 application/javascript; charset=utf-8 1.9428ms
+2024-04-03 14:00:52.356 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.1945ms
+2024-04-03 14:00:52.493 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7262/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 311.2816ms
+2024-04-03 14:00:58.352 +07:00 [DBG] Connection id "0HN2JLF5B4E8V" received FIN.
+2024-04-03 14:00:58.354 +07:00 [DBG] The connection queue processing loop for 0HN2JLF5B4E8V completed.
+2024-04-03 14:00:58.359 +07:00 [DBG] Connection id "0HN2JLF5B4E8V" is closed. The last processed stream ID was 11.
+2024-04-03 14:00:58.359 +07:00 [DBG] Connection id "0HN2JLF5B4E8V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-04-03 14:00:58.367 +07:00 [DBG] Connection id "0HN2JLF5B4E8V" stopped.
