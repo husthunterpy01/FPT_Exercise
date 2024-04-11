@@ -10,7 +10,7 @@ using Mock_2.Data;
 
 namespace Mock_2.Migrations
 {
-    [DbContext(typeof(Mock2DbContext))]
+    [DbContext(typeof(HouseRentalDbContext))]
     partial class Mock2DbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

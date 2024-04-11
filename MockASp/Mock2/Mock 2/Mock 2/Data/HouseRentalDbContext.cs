@@ -5,9 +5,9 @@ using System.Reflection;
 
 namespace Mock_2.Data
 {
-    public class Mock2DbContext : DbContext
+    public class HouseRentalDbContext : DbContext
     {
-        public Mock2DbContext(DbContextOptions<Mock2DbContext> options) : base(options)
+        public HouseRentalDbContext(DbContextOptions<HouseRentalDbContext> options) : base(options)
         {
 
         }

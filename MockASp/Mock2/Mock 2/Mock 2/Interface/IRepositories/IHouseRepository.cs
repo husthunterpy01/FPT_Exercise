@@ -2,7 +2,7 @@
 
 namespace Mock_2.Interface.IRepositories
 {
-    public interface IReportRepository : IGenericRepo<Report>
+    public interface IHouseRepository : IGenericRepo<House>
     {
     }
 }

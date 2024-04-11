@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9ZiPh7Nylv/KbhnvV4eB1oOw+tVqIO5HmuQKXEBPk0GCTYIcpGS3hW+pL1pS/v00EC+935kUOtRVIKd2zLHKJA==",
+  "dgSpecHash": "ZS1/bKVVK2wYbIlGX9d79JGcODokOE3w0bg29RwpCpWlN20N6UyiTyUUG815n6Tb4fLGasgorQS3TGr5A9NQUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\Mock 2\\Mock 2\\Mock 2.csproj",
+  "projectFilePath": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Mock 2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

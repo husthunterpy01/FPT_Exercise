@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\source\\repos\\Mock 2\\Mock 2\\Mock 2.csproj": {}
+    "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Mock 2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\source\\repos\\Mock 2\\Mock 2\\Mock 2.csproj": {
+    "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Mock 2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\Mock 2\\Mock 2\\Mock 2.csproj",
+        "projectUniqueName": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Mock 2.csproj",
         "projectName": "Mock 2",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\Mock 2\\Mock 2\\Mock 2.csproj",
+        "projectPath": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Mock 2.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\Mock 2\\Mock 2\\obj\\",
+        "outputPath": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

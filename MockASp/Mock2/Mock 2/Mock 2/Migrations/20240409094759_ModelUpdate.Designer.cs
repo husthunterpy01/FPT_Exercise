@@ -11,7 +11,7 @@ using Mock_2.Data;
 
 namespace Mock_2.Migrations
 {
-    [DbContext(typeof(Mock2DbContext))]
+    [DbContext(typeof(HouseRentalDbContext))]
     [Migration("20240409094759_ModelUpdate")]
     partial class ModelUpdate
     {

@@ -1,6 +1,8 @@
-﻿namespace Mock_2.Interface.IRepositories
+﻿using Mock_2.Model.Entity;
+
+namespace Mock_2.Interface.IRepositories
 {
-    public interface IDistrictRepository
+    public interface IDistrictRepository : IGenericRepo<District>
     {
     }
 }

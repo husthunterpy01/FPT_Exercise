@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mock 2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6dd954eb9413e6efd8fff059c7bfcca8ea76d4f5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eac3fea2f108ed37458717ac7da8bb67a2ae9f3a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mock 2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mock 2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
