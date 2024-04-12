@@ -11,6 +11,7 @@ namespace Mock_2.Interface.IRepositories
         Task CreateAsync(T entity);
         Task UpdateAsync(T entity);
         Task DeleteAsync(T entity);
+        // In case we work seperately, we can use SaveAsynce()
         Task SaveAsync();
     }
 }

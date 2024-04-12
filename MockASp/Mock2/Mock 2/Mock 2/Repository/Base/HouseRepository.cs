@@ -9,7 +9,6 @@ namespace Mock_2.Repository.Base
         public HouseRepository(HouseRentalDbContext _db) : base(_db)
         {
 
-
         }
     }
 }
