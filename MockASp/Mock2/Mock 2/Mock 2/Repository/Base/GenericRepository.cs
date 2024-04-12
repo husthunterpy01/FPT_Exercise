@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 
 namespace Mock_2.Repository.Base
 {
-    public class GenericRepository<T> : IGenericRepo<T> where T : class
+    public abstract class GenericRepository<T> : IGenericRepo<T> where T : class
     {
         public readonly HouseRentalDbContext _db;
         public readonly DbSet<T> _dbSet;
