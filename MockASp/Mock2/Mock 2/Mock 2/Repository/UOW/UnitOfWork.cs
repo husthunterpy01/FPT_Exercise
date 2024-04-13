@@ -11,10 +11,14 @@ namespace Mock_2.Repository.UOW
     {
         // DbContext
         public HouseRentalDbContext _db { get; }
+
+        // Repository dictionary to hold instances of generic repositories <Entities, Repositories>
+        private readonly Dictionary<Type, object> _genericRepo;
+
         // DbContextTransaction
         private IDbContextTransaction? _objecTrans;
         // Disposed(Used for dispose)
-        private bool _disposed;
+        private bool _disposed = false;
         // Error messasge
         private string _errorMessage = string.Empty;
         private bool disposedValue;
@@ -22,6 +26,7 @@ namespace Mock_2.Repository.UOW
         public UnitOfWork(HouseRentalDbContext db)
         {
             _db = db;
+            _genericRepo = new Dictionary<Type, object>();
         }
 
         // Create Db Transaction principles
@@ -81,5 +86,17 @@ namespace Mock_2.Repository.UOW
             Dispose(disposing: true);
             GC.SuppressFinalize(this);
         }
+
+        public IGenericRepo<T> GetGenericRepo<T>() where T : class
+        {
+            if (_genericRepo.ContainsKey(typeof(T)))
+            {
+                return _genericRepo[typeof(T)] as IGenericRepo<T>;
+            }
+            var repo = new GenericRepository<T>(_db);
+            _genericRepo.Add(typeof(T), repo);
+            return repo;
+        }
+
     }
 }

@@ -3,20 +3,92 @@
   "WorkspaceRootPath": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\repository\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\repository\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\interface\\irepositories\\ivillagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\interface\\irepositories\\ivillagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\repository\\base\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\repository\\base\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\interface\\iuow\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\interface\\iuow\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\service\\service\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\service\\service\\addressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\model\\entity\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\model\\entity\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\service\\iservice\\iaddressservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\service\\iservice\\iaddressservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\model\\entity\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\model\\entity\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\repository\\base\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\repository\\base\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\repository\\base\\districtrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\repository\\base\\districtrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\repository\\base\\communerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\repository\\base\\communerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\interface\\irepositories\\iusersupervisesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\interface\\irepositories\\iusersupervisesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\interface\\irepositories\\iroomimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\interface\\irepositories\\iroomimagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\interface\\irepositories\\iraterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\interface\\irepositories\\iraterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\interface\\irepositories\\iaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\interface\\irepositories\\iaddressrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\repository\\base\\campusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\repository\\base\\campusrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\interface\\irepositories\\igenericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\interface\\irepositories\\igenericrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\controllers\\addresscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\model\\dto\\addressupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\model\\dto\\addressupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\model\\dto\\addresscreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\model\\dto\\addresscreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\model\\dto\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\model\\dto\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\interface\\irepositories\\ivillagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\interface\\irepositories\\ivillagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\repository\\base\\houserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +102,229 @@
       "DocumentGroups": [
         {
           "DockedWidth": 222,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Room.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Model\\Entity\\Room.cs",
+              "RelativeDocumentMoniker": "Mock 2\\Model\\Entity\\Room.cs",
+              "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Model\\Entity\\Room.cs",
+              "RelativeToolTip": "Mock 2\\Model\\Entity\\Room.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T08:26:38.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReportRepository.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Repository\\Base\\ReportRepository.cs",
+              "RelativeDocumentMoniker": "Mock 2\\Repository\\Base\\ReportRepository.cs",
+              "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Repository\\Base\\ReportRepository.cs",
+              "RelativeToolTip": "Mock 2\\Repository\\Base\\ReportRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T08:26:35.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DistrictRepository.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Repository\\Base\\DistrictRepository.cs",
+              "RelativeDocumentMoniker": "Mock 2\\Repository\\Base\\DistrictRepository.cs",
+              "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Repository\\Base\\DistrictRepository.cs",
+              "RelativeToolTip": "Mock 2\\Repository\\Base\\DistrictRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T08:26:14.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CommuneRepository.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Repository\\Base\\CommuneRepository.cs",
+              "RelativeDocumentMoniker": "Mock 2\\Repository\\Base\\CommuneRepository.cs",
+              "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Repository\\Base\\CommuneRepository.cs",
+              "RelativeToolTip": "Mock 2\\Repository\\Base\\CommuneRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T08:26:06.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserSupervisesRepository.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Interface\\IRepositories\\IUserSupervisesRepository.cs",
+              "RelativeDocumentMoniker": "Mock 2\\Interface\\IRepositories\\IUserSupervisesRepository.cs",
+              "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Interface\\IRepositories\\IUserSupervisesRepository.cs",
+              "RelativeToolTip": "Mock 2\\Interface\\IRepositories\\IUserSupervisesRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T08:22:18.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IRoomImageRepository.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Interface\\IRepositories\\IRoomImageRepository.cs",
+              "RelativeDocumentMoniker": "Mock 2\\Interface\\IRepositories\\IRoomImageRepository.cs",
+              "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Interface\\IRepositories\\IRoomImageRepository.cs",
+              "RelativeToolTip": "Mock 2\\Interface\\IRepositories\\IRoomImageRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T08:22:17.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IRateRepository.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Interface\\IRepositories\\IRateRepository.cs",
+              "RelativeDocumentMoniker": "Mock 2\\Interface\\IRepositories\\IRateRepository.cs",
+              "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Interface\\IRepositories\\IRateRepository.cs",
+              "RelativeToolTip": "Mock 2\\Interface\\IRepositories\\IRateRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T08:22:16.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAddressRepository.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Interface\\IRepositories\\IAddressRepository.cs",
+              "RelativeDocumentMoniker": "Mock 2\\Interface\\IRepositories\\IAddressRepository.cs",
+              "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Interface\\IRepositories\\IAddressRepository.cs",
+              "RelativeToolTip": "Mock 2\\Interface\\IRepositories\\IAddressRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T08:22:13.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CampusRepository.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Repository\\Base\\CampusRepository.cs",
+              "RelativeDocumentMoniker": "Mock 2\\Repository\\Base\\CampusRepository.cs",
+              "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Repository\\Base\\CampusRepository.cs",
+              "RelativeToolTip": "Mock 2\\Repository\\Base\\CampusRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T08:21:33.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Repository\\Base\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Mock 2\\Repository\\Base\\GenericRepository.cs",
+              "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Repository\\Base\\GenericRepository.cs",
+              "RelativeToolTip": "Mock 2\\Repository\\Base\\GenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T07:29:46.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAddressServices.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Service\\IService\\IAddressServices.cs",
+              "RelativeDocumentMoniker": "Mock 2\\Service\\IService\\IAddressServices.cs",
+              "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Service\\IService\\IAddressServices.cs",
+              "RelativeToolTip": "Mock 2\\Service\\IService\\IAddressServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T06:43:41.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Repository\\UOW\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Mock 2\\Repository\\UOW\\UnitOfWork.cs",
+              "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Repository\\UOW\\UnitOfWork.cs",
+              "RelativeToolTip": "Mock 2\\Repository\\UOW\\UnitOfWork.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAuwF0AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T04:00:33.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddressService.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Service\\Service\\AddressService.cs",
+              "RelativeDocumentMoniker": "Mock 2\\Service\\Service\\AddressService.cs",
+              "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Service\\Service\\AddressService.cs",
+              "RelativeToolTip": "Mock 2\\Service\\Service\\AddressService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T03:58:20.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AddressUpdateDTO.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Model\\DTO\\AddressUpdateDTO.cs",
+              "RelativeDocumentMoniker": "Mock 2\\Model\\DTO\\AddressUpdateDTO.cs",
+              "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Model\\DTO\\AddressUpdateDTO.cs",
+              "RelativeToolTip": "Mock 2\\Model\\DTO\\AddressUpdateDTO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T03:36:59.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AddressCreateDTO.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Model\\DTO\\AddressCreateDTO.cs",
+              "RelativeDocumentMoniker": "Mock 2\\Model\\DTO\\AddressCreateDTO.cs",
+              "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Model\\DTO\\AddressCreateDTO.cs",
+              "RelativeToolTip": "Mock 2\\Model\\DTO\\AddressCreateDTO.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T03:36:48.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Address.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Model\\Entity\\Address.cs",
+              "RelativeDocumentMoniker": "Mock 2\\Model\\Entity\\Address.cs",
+              "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Model\\Entity\\Address.cs",
+              "RelativeToolTip": "Mock 2\\Model\\Entity\\Address.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T03:34:42.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AddressDTO.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Model\\DTO\\AddressDTO.cs",
+              "RelativeDocumentMoniker": "Mock 2\\Model\\DTO\\AddressDTO.cs",
+              "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Model\\DTO\\AddressDTO.cs",
+              "RelativeToolTip": "Mock 2\\Model\\DTO\\AddressDTO.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwA0AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T03:34:37.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AddressController.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Controllers\\AddressController.cs",
+              "RelativeDocumentMoniker": "Mock 2\\Controllers\\AddressController.cs",
+              "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Controllers\\AddressController.cs",
+              "RelativeToolTip": "Mock 2\\Controllers\\AddressController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T03:25:11.66Z"
             },
             {
               "$type": "Document",
@@ -44,14 +334,14 @@
               "RelativeDocumentMoniker": "Mock 2\\Interface\\IUOW\\IUnitOfWork.cs",
               "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Interface\\IUOW\\IUnitOfWork.cs",
               "RelativeToolTip": "Mock 2\\Interface\\IUOW\\IUnitOfWork.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T03:01:53.721Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "IGenericRepo.cs",
               "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Interface\\IRepositories\\IGenericRepo.cs",
               "RelativeDocumentMoniker": "Mock 2\\Interface\\IRepositories\\IGenericRepo.cs",
@@ -59,12 +349,11 @@
               "RelativeToolTip": "Mock 2\\Interface\\IRepositories\\IGenericRepo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T02:38:21.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T02:38:21.816Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 22,
               "Title": "HouseRepository.cs",
               "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Repository\\Base\\HouseRepository.cs",
               "RelativeDocumentMoniker": "Mock 2\\Repository\\Base\\HouseRepository.cs",
@@ -76,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 21,
               "Title": "IVillageRepository.cs",
               "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Interface\\IRepositories\\IVillageRepository.cs",
               "RelativeDocumentMoniker": "Mock 2\\Interface\\IRepositories\\IVillageRepository.cs",
@@ -84,21 +373,19 @@
               "RelativeToolTip": "Mock 2\\Interface\\IRepositories\\IVillageRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T02:36:31.547Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T02:36:31.547Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 16,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Program.cs",
               "RelativeDocumentMoniker": "Mock 2\\Program.cs",
               "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Program.cs",
               "RelativeToolTip": "Mock 2\\Program.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAAoAAAA8AAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAjwA0AAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T09:40:02.672Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T09:40:02.672Z"
             }
           ]
         },
