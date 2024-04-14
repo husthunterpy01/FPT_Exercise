@@ -2,7 +2,6 @@
 using Microsoft.EntityFrameworkCore.Storage;
 using Mock_2.Data;
 using Mock_2.Interface.IRepositories;
-using Mock_2.Interface.IUOW;
 using Mock_2.Repository.Base;
 
 namespace Mock_2.Repository.UOW

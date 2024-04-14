@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZS1/bKVVK2wYbIlGX9d79JGcODokOE3w0bg29RwpCpWlN20N6UyiTyUUG815n6Tb4fLGasgorQS3TGr5A9NQUA==",
+  "dgSpecHash": "yoR1wPN37QBdZR4KkFUSeiSWTcQfvt1Y4Xq9SG1Ox1wiSLiQQ9Vsf6YnlRghOXpv2ftmOG5HiB9FqcSkj6xqXg==",
   "success": true,
   "projectFilePath": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Mock 2.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

@@ -1,7 +1,7 @@
 ﻿using Mock_2.Data;
 using Mock_2.Interface.IRepositories;
 
-namespace Mock_2.Interface.IUOW
+namespace Mock_2.Repository.UOW
 {
     public interface IUnitOfWork : IDisposable
     {

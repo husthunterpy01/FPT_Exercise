@@ -1,4 +1,5 @@
-﻿using System.Linq.Expressions;
+﻿using Mock_2.Model.Entity;
+using System.Linq.Expressions;
 
 namespace Mock_2.Interface.IRepositories
 {
@@ -13,5 +14,6 @@ namespace Mock_2.Interface.IRepositories
         Task DeleteAsync(T entity);
         // In case we work seperately, we can use SaveAsynce()
         Task SaveAsync();
+        Task<IEnumerable<Address>> GetAllAsync();
     }
 }

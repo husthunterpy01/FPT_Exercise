@@ -1,7 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Mock_2.Data;
 using Mock_2.Interface.IRepositories;
-using Mock_2.Interface.IUOW;
 using Mock_2.Repository.Base;
 using Mock_2.Repository.UOW;
 using System;
