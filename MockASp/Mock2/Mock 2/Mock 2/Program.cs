@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Mock_2;
 using Mock_2.Data;
 using Mock_2.Interface.IRepositories;
 using Mock_2.Repository.Base;
@@ -9,8 +10,10 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddDbContext<HouseRentalDbContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("DbConnection")));
+builder.Services.AddAutoMapper(typeof(MappingConfig));
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IAddressRepository, AddressRepository>();
+builder.Services.AddControllers().AddNewtonsoftJson(); 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
