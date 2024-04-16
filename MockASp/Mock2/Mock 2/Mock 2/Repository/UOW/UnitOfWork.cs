@@ -64,6 +64,7 @@ namespace Mock_2.Repository.UOW
                 if (disposing)
                 {
                     // TODO: dispose managed state (managed objects)
+                    _db.Dispose();
                 }
 
                 // TODO: free unmanaged resources (unmanaged objects) and override finalizer
