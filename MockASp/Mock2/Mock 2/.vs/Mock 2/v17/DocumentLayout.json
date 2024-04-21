@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\service\\service\\campusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\service\\service\\campusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\service\\iservice\\icampusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\service\\iservice\\icampusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -37,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\repository\\base\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\repository\\base\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\service\\service\\campusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|solutionrelative:mock 2\\service\\service\\campusservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D8BA5A43-3A98-44CA-91F4-AC118B2AAD7D}|Mock 2\\Mock 2.csproj|d:\\fpt_exercise\\mockasp\\mock2\\mock 2\\mock 2\\repository\\uow\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -126,20 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CampusCreateDTO.cs",
-              "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Model\\DTO\\CampusCreateDTO.cs",
-              "RelativeDocumentMoniker": "Mock 2\\Model\\DTO\\CampusCreateDTO.cs",
-              "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Model\\DTO\\CampusCreateDTO.cs",
-              "RelativeToolTip": "Mock 2\\Model\\DTO\\CampusCreateDTO.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T09:28:23.24Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CampusUpdateDTO.cs",
               "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Model\\DTO\\CampusUpdateDTO.cs",
               "RelativeDocumentMoniker": "Mock 2\\Model\\DTO\\CampusUpdateDTO.cs",
@@ -147,12 +134,11 @@
               "RelativeToolTip": "Mock 2\\Model\\DTO\\CampusUpdateDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T09:28:15.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T09:28:15.109Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AddressCreateDTO.cs",
               "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Model\\DTO\\AddressCreateDTO.cs",
               "RelativeDocumentMoniker": "Mock 2\\Model\\DTO\\AddressCreateDTO.cs",
@@ -160,12 +146,11 @@
               "RelativeToolTip": "Mock 2\\Model\\DTO\\AddressCreateDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T09:27:51.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T09:27:51.069Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "AddressUpdateDTO.cs",
               "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Model\\DTO\\AddressUpdateDTO.cs",
               "RelativeDocumentMoniker": "Mock 2\\Model\\DTO\\AddressUpdateDTO.cs",
@@ -173,12 +158,11 @@
               "RelativeToolTip": "Mock 2\\Model\\DTO\\AddressUpdateDTO.cs",
               "ViewState": "AQIAAAUAAAAAAAAAAAAxwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T09:27:46.747Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T09:27:46.747Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CampusDTO.cs",
               "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Model\\DTO\\CampusDTO.cs",
               "RelativeDocumentMoniker": "Mock 2\\Model\\DTO\\CampusDTO.cs",
@@ -186,12 +170,11 @@
               "RelativeToolTip": "Mock 2\\Model\\DTO\\CampusDTO.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T09:22:33.394Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T09:22:33.394Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AddressDTO.cs",
               "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Model\\DTO\\AddressDTO.cs",
               "RelativeDocumentMoniker": "Mock 2\\Model\\DTO\\AddressDTO.cs",
@@ -199,25 +182,49 @@
               "RelativeToolTip": "Mock 2\\Model\\DTO\\AddressDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T03:34:37.223Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T03:34:37.223Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ICampusService.cs",
               "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Service\\IService\\ICampusService.cs",
               "RelativeDocumentMoniker": "Mock 2\\Service\\IService\\ICampusService.cs",
               "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Service\\IService\\ICampusService.cs",
               "RelativeToolTip": "Mock 2\\Service\\IService\\ICampusService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-16T03:25:39.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "CampusService.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Service\\Service\\CampusService.cs",
+              "RelativeDocumentMoniker": "Mock 2\\Service\\Service\\CampusService.cs",
+              "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Service\\Service\\CampusService.cs",
+              "RelativeToolTip": "Mock 2\\Service\\Service\\CampusService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwBYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T03:25:50.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CampusCreateDTO.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Model\\DTO\\CampusCreateDTO.cs",
+              "RelativeDocumentMoniker": "Mock 2\\Model\\DTO\\CampusCreateDTO.cs",
+              "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Model\\DTO\\CampusCreateDTO.cs",
+              "RelativeToolTip": "Mock 2\\Model\\DTO\\CampusCreateDTO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T09:28:23.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Campus.cs",
               "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Model\\Entity\\Campus.cs",
               "RelativeDocumentMoniker": "Mock 2\\Model\\Entity\\Campus.cs",
@@ -225,25 +232,11 @@
               "RelativeToolTip": "Mock 2\\Model\\Entity\\Campus.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAwA4AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T09:22:44.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T09:22:44.257Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "CampusService.cs",
-              "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Service\\Service\\CampusService.cs",
-              "RelativeDocumentMoniker": "Mock 2\\Service\\Service\\CampusService.cs",
-              "ToolTip": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Service\\Service\\CampusService.cs",
-              "RelativeToolTip": "Mock 2\\Service\\Service\\CampusService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T03:25:50.332Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "D:\\FPT_Exercise\\MockASp\\Mock2\\Mock 2\\Mock 2\\Repository\\Base\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Mock 2\\Repository\\Base\\GenericRepository.cs",
@@ -251,8 +244,7 @@
               "RelativeToolTip": "Mock 2\\Repository\\Base\\GenericRepository.cs",
               "ViewState": "AQIAACQAAAAAAAAAAAAwwCcAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T07:29:46.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T07:29:46.228Z"
             },
             {
               "$type": "Document",
@@ -264,8 +256,7 @@
               "RelativeToolTip": "Mock 2\\Repository\\UOW\\UnitOfWork.cs",
               "ViewState": "AQIAADsAAAAAAAAAAAAswEIAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T07:12:47.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T07:12:47.754Z"
             },
             {
               "$type": "Document",
@@ -277,8 +268,7 @@
               "RelativeToolTip": "Mock 2\\Repository\\Base\\AddressRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T03:46:32.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T03:46:32.615Z"
             },
             {
               "$type": "Document",
@@ -290,8 +280,7 @@
               "RelativeToolTip": "Mock 2\\Interface\\IRepositories\\IAddressRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T08:22:13.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T08:22:13.84Z"
             },
             {
               "$type": "Document",
@@ -303,8 +292,7 @@
               "RelativeToolTip": "Mock 2\\Repository\\UOW\\IUnitOfWork.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAiwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-14T08:20:53.378Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-14T08:20:53.378Z"
             },
             {
               "$type": "Document",
@@ -316,8 +304,7 @@
               "RelativeToolTip": "Mock 2\\Controllers\\CampusController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-16T03:26:50.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-16T03:26:50.909Z"
             },
             {
               "$type": "Document",
@@ -329,8 +316,7 @@
               "RelativeToolTip": "Mock 2\\Controllers\\AddressController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAI8AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T03:25:11.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T03:25:11.66Z"
             },
             {
               "$type": "Document",
@@ -342,8 +328,7 @@
               "RelativeToolTip": "Mock 2\\Interface\\IRepositories\\IGenericRepo.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAowAcAAAB4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T02:38:21.816Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-12T02:38:21.816Z"
             },
             {
               "$type": "Document",
