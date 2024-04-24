@@ -29,6 +29,9 @@ namespace Mock_2.Service.Service
             var campustList = await _unitofWork.GetGenericRepo<Campus>().GetAsync();
             return _mapper.Map<List<CampusDTO>>(campustList);
         }
+
+    
+
         // Get the campus information through Id
         public async Task<List<CampusDTO>> GetCampusNameById(int id)
         {
@@ -39,13 +42,13 @@ namespace Mock_2.Service.Service
                 List<CampusDTO> filterCampusDTO = _mapper.Map<List<CampusDTO>>(filterCampus);
                 if (filterCampusDTO == null || !filterCampus.Any())
                 {
-                    throw new Exception("No houses found with following id");
+                    throw new Exception("No campuses found with following id");
                 }
                 return filterCampusDTO;
             }
             catch (Exception ex)
             {
-                throw new Exception("Error while getting the house list", ex);
+                throw new Exception("Error while getting the campuses list", ex);
             }
         }
         // Get the information through the campus name
@@ -58,17 +61,21 @@ namespace Mock_2.Service.Service
                 List<CampusDTO> filterCampusDTO = _mapper.Map<List<CampusDTO>>(filterCampus);
                 if (filterCampusDTO == null || !filterCampus.Any())
                 {
-                    throw new Exception("No houses found with following id");
+                    throw new Exception("No campuses found with following id");
                 }
                 return filterCampusDTO;
             }
             catch (Exception ex)
             {
-                throw new Exception("Error while getting the house list", ex);
+                throw new Exception("Error while getting the campus list", ex);
             }
         }
 
-
+        // Save Change
+        public void SaveChange()
+        {
+            _unitofWork.Save();
+        }
 
     }
 }
