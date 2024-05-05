@@ -1,0 +1,15 @@
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Application\bin\Debug\net8.0\CleanCQRSProject.Application.deps.json
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Application\bin\Debug\net8.0\CleanCQRSProject.Application.dll
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Application\bin\Debug\net8.0\CleanCQRSProject.Application.pdb
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Application\bin\Debug\net8.0\CleanCQRSProject.Domain.dll
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Application\bin\Debug\net8.0\CleanCQRSProject.Domain.pdb
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Application\obj\Debug\net8.0\CleanCQRSProject.Application.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Application\obj\Debug\net8.0\CleanCQRSProject.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Application\obj\Debug\net8.0\CleanCQRSProject.Application.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Application\obj\Debug\net8.0\CleanCQRSProject.Application.AssemblyInfo.cs
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Application\obj\Debug\net8.0\CleanCQRSProject.Application.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Application\obj\Debug\net8.0\CleanCQR.109BE750.Up2Date
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Application\obj\Debug\net8.0\CleanCQRSProject.Application.dll
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Application\obj\Debug\net8.0\refint\CleanCQRSProject.Application.dll
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Application\obj\Debug\net8.0\CleanCQRSProject.Application.pdb
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Application\obj\Debug\net8.0\ref\CleanCQRSProject.Application.dll

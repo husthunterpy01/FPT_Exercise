@@ -1,0 +1,12 @@
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Domain\bin\Debug\net8.0\CleanCQRSProject.Domain.deps.json
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Domain\bin\Debug\net8.0\CleanCQRSProject.Domain.dll
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Domain\bin\Debug\net8.0\CleanCQRSProject.Domain.pdb
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Domain\obj\Debug\net8.0\CleanCQRSProject.Domain.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Domain\obj\Debug\net8.0\CleanCQRSProject.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Domain\obj\Debug\net8.0\CleanCQRSProject.Domain.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Domain\obj\Debug\net8.0\CleanCQRSProject.Domain.AssemblyInfo.cs
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Domain\obj\Debug\net8.0\CleanCQRSProject.Domain.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Domain\obj\Debug\net8.0\CleanCQRSProject.Domain.dll
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Domain\obj\Debug\net8.0\refint\CleanCQRSProject.Domain.dll
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Domain\obj\Debug\net8.0\CleanCQRSProject.Domain.pdb
+C:\Users\DELL\source\repos\CleanCQRSProject\CleanCQRSProject.Domain\obj\Debug\net8.0\ref\CleanCQRSProject.Domain.dll
