@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CleanCQRSProject.Application.Blogs.Commands.DeleteBlog
 {
-    internal class DeleteBlogCommandHandler : IRequestHandler<DeleteBlogCommand, int>
+    public class DeleteBlogCommandHandler : IRequestHandler<DeleteBlogCommand, int>
     {
         private readonly IBlogRepository _blogRepository;
         public DeleteBlogCommandHandler(IBlogRepository blogRepository)

@@ -439,11 +439,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\CleanCQRSProject\\CleanCQRSProject.Domain\\CleanCQRSProject.Domain.csproj",
+      "projectUniqueName": "D:\\FPT_Exercise\\CleanCQRSProject\\CleanCQRSProject.Domain\\CleanCQRSProject.Domain.csproj",
       "projectName": "CleanCQRSProject.Domain",
-      "projectPath": "C:\\Users\\DELL\\source\\repos\\CleanCQRSProject\\CleanCQRSProject.Domain\\CleanCQRSProject.Domain.csproj",
+      "projectPath": "D:\\FPT_Exercise\\CleanCQRSProject\\CleanCQRSProject.Domain\\CleanCQRSProject.Domain.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\source\\repos\\CleanCQRSProject\\CleanCQRSProject.Domain\\obj\\",
+      "outputPath": "D:\\FPT_Exercise\\CleanCQRSProject\\CleanCQRSProject.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

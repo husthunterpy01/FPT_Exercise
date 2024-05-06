@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CleanCQRSProject.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76d68cb9f96ab8dc6242c8708bcf34cad7b0c285")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a254059d79d4f558b0ddd727b0f67e62e800b0ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("CleanCQRSProject.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CleanCQRSProject.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

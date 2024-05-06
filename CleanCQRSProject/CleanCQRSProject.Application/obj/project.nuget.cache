@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pxp2zCbjF9XxkciytkMX5WeJlslQxs0hpepoHQU08qx4IjWGc6/s0jCGafeRh6SKzv+saXytZud0l3NH3eeJAw==",
+  "dgSpecHash": "Y22oguOwNNcRpbALq0a1CYa1LxS0z4wb82ct/zpkrGd7oNnVyVnpfrpe6xWf7/QMiDIhwHIXFt9JiKeIBQV9UQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\CleanCQRSProject\\CleanCQRSProject.Application\\CleanCQRSProject.Application.csproj",
+  "projectFilePath": "D:\\FPT_Exercise\\CleanCQRSProject\\CleanCQRSProject.Application\\CleanCQRSProject.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

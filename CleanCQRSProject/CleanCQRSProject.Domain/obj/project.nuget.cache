@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "22nO5RchjVA/2KTNnRVEelWpNmpo7gxYvHVZjlJHNLH4DY0aOjSLdwAEPPYne5lmCPjxT8yv017nGZn+AXgG0A==",
+  "dgSpecHash": "7Hb0+7fNJZpobwmnTRWsl0fSbRpXF4fnAdrRrGsfX//U797zuM/tw6z+zSOcy1Tqmv37bAuT36ai3cCuI43+kg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\source\\repos\\CleanCQRSProject\\CleanCQRSProject.Domain\\CleanCQRSProject.Domain.csproj",
+  "projectFilePath": "D:\\FPT_Exercise\\CleanCQRSProject\\CleanCQRSProject.Domain\\CleanCQRSProject.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
