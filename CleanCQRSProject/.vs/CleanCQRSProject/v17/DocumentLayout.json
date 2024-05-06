@@ -1,29 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\CleanCQRSProject\\",
+  "WorkspaceRootPath": "D:\\FPT_Exercise\\CleanCQRSProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5E27404C-D1F5-4A0A-9575-78F232FD4FA2}|CleanCQRSProject.Infrastructure\\CleanCQRSProject.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\cleancqrsproject\\cleancqrsproject.infrastructure\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E22BE8E2-13BA-4C0B-AF71-B8D89DE81921}|CleanCQRSProject\\CleanCQRSProject.csproj|d:\\fpt_exercise\\cleancqrsproject\\cleancqrsproject\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E22BE8E2-13BA-4C0B-AF71-B8D89DE81921}|CleanCQRSProject\\CleanCQRSProject.csproj|solutionrelative:cleancqrsproject\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E27404C-D1F5-4A0A-9575-78F232FD4FA2}|CleanCQRSProject.Infrastructure\\CleanCQRSProject.Infrastructure.csproj|d:\\fpt_exercise\\cleancqrsproject\\cleancqrsproject.infrastructure\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5E27404C-D1F5-4A0A-9575-78F232FD4FA2}|CleanCQRSProject.Infrastructure\\CleanCQRSProject.Infrastructure.csproj|solutionrelative:cleancqrsproject.infrastructure\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5E27404C-D1F5-4A0A-9575-78F232FD4FA2}|CleanCQRSProject.Infrastructure\\CleanCQRSProject.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\cleancqrsproject\\cleancqrsproject.infrastructure\\cleancqrsproject.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{5E27404C-D1F5-4A0A-9575-78F232FD4FA2}|CleanCQRSProject.Infrastructure\\CleanCQRSProject.Infrastructure.csproj|d:\\fpt_exercise\\cleancqrsproject\\cleancqrsproject.infrastructure\\cleancqrsproject.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{5E27404C-D1F5-4A0A-9575-78F232FD4FA2}|CleanCQRSProject.Infrastructure\\CleanCQRSProject.Infrastructure.csproj|solutionrelative:cleancqrsproject.infrastructure\\cleancqrsproject.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90783501-E4B3-428D-BD8F-0AEAF88DCC12}|CleanCQRSProject.Domain\\CleanCQRSProject.Domain.csproj|c:\\users\\dell\\source\\repos\\cleancqrsproject\\cleancqrsproject.domain\\cleancqrsproject.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{90783501-E4B3-428D-BD8F-0AEAF88DCC12}|CleanCQRSProject.Domain\\CleanCQRSProject.Domain.csproj|d:\\fpt_exercise\\cleancqrsproject\\cleancqrsproject.domain\\cleancqrsproject.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{90783501-E4B3-428D-BD8F-0AEAF88DCC12}|CleanCQRSProject.Domain\\CleanCQRSProject.Domain.csproj|solutionrelative:cleancqrsproject.domain\\cleancqrsproject.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF426638-6D46-450E-B510-85E76BFF7F9D}|CleanCQRSProject.Application\\CleanCQRSProject.Application.csproj|c:\\users\\dell\\source\\repos\\cleancqrsproject\\cleancqrsproject.application\\configureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF426638-6D46-450E-B510-85E76BFF7F9D}|CleanCQRSProject.Application\\CleanCQRSProject.Application.csproj|d:\\fpt_exercise\\cleancqrsproject\\cleancqrsproject.application\\configureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF426638-6D46-450E-B510-85E76BFF7F9D}|CleanCQRSProject.Application\\CleanCQRSProject.Application.csproj|solutionrelative:cleancqrsproject.application\\configureservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF426638-6D46-450E-B510-85E76BFF7F9D}|CleanCQRSProject.Application\\CleanCQRSProject.Application.csproj|c:\\users\\dell\\source\\repos\\cleancqrsproject\\cleancqrsproject.application\\cleancqrsproject.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{CF426638-6D46-450E-B510-85E76BFF7F9D}|CleanCQRSProject.Application\\CleanCQRSProject.Application.csproj|d:\\fpt_exercise\\cleancqrsproject\\cleancqrsproject.application\\cleancqrsproject.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{CF426638-6D46-450E-B510-85E76BFF7F9D}|CleanCQRSProject.Application\\CleanCQRSProject.Application.csproj|solutionrelative:cleancqrsproject.application\\cleancqrsproject.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF426638-6D46-450E-B510-85E76BFF7F9D}|CleanCQRSProject.Application\\CleanCQRSProject.Application.csproj|c:\\users\\dell\\source\\repos\\cleancqrsproject\\cleancqrsproject.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CF426638-6D46-450E-B510-85E76BFF7F9D}|CleanCQRSProject.Application\\CleanCQRSProject.Application.csproj|d:\\fpt_exercise\\cleancqrsproject\\cleancqrsproject.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF426638-6D46-450E-B510-85E76BFF7F9D}|CleanCQRSProject.Application\\CleanCQRSProject.Application.csproj|solutionrelative:cleancqrsproject.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,15 +38,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 991,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\CleanCQRSProject\\CleanCQRSProject\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "CleanCQRSProject\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\FPT_Exercise\\CleanCQRSProject\\CleanCQRSProject\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "CleanCQRSProject\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T03:59:18.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ConfigureServices.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\CleanCQRSProject\\CleanCQRSProject.Infrastructure\\ConfigureServices.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\CleanCQRSProject\\CleanCQRSProject.Infrastructure\\ConfigureServices.cs",
               "RelativeDocumentMoniker": "CleanCQRSProject.Infrastructure\\ConfigureServices.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\CleanCQRSProject\\CleanCQRSProject.Infrastructure\\ConfigureServices.cs",
+              "ToolTip": "D:\\FPT_Exercise\\CleanCQRSProject\\CleanCQRSProject.Infrastructure\\ConfigureServices.cs",
               "RelativeToolTip": "CleanCQRSProject.Infrastructure\\ConfigureServices.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -51,72 +72,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CleanCQRSProject.Infrastructure",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\CleanCQRSProject\\CleanCQRSProject.Infrastructure\\CleanCQRSProject.Infrastructure.csproj",
+              "DocumentIndex": 2,
+              "Title": "CleanCQRSProject.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\FPT_Exercise\\CleanCQRSProject\\CleanCQRSProject.Infrastructure\\CleanCQRSProject.Infrastructure.csproj",
               "RelativeDocumentMoniker": "CleanCQRSProject.Infrastructure\\CleanCQRSProject.Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\CleanCQRSProject\\CleanCQRSProject.Infrastructure\\CleanCQRSProject.Infrastructure.csproj",
+              "ToolTip": "D:\\FPT_Exercise\\CleanCQRSProject\\CleanCQRSProject.Infrastructure\\CleanCQRSProject.Infrastructure.csproj",
               "RelativeToolTip": "CleanCQRSProject.Infrastructure\\CleanCQRSProject.Infrastructure.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-02T15:37:10.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CleanCQRSProject.Domain",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\CleanCQRSProject\\CleanCQRSProject.Domain\\CleanCQRSProject.Domain.csproj",
-              "RelativeDocumentMoniker": "CleanCQRSProject.Domain\\CleanCQRSProject.Domain.csproj",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\CleanCQRSProject\\CleanCQRSProject.Domain\\CleanCQRSProject.Domain.csproj",
-              "RelativeToolTip": "CleanCQRSProject.Domain\\CleanCQRSProject.Domain.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-02T15:29:12.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T15:37:10.061Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ConfigureService.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\CleanCQRSProject\\CleanCQRSProject.Application\\ConfigureService.cs",
-              "RelativeDocumentMoniker": "CleanCQRSProject.Application\\ConfigureService.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\CleanCQRSProject\\CleanCQRSProject.Application\\ConfigureService.cs",
-              "RelativeToolTip": "CleanCQRSProject.Application\\ConfigureService.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAiwA8AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T15:28:05.763Z",
-              "EditorCaption": ""
+              "Title": "CleanCQRSProject.Domain.csproj",
+              "DocumentMoniker": "D:\\FPT_Exercise\\CleanCQRSProject\\CleanCQRSProject.Domain\\CleanCQRSProject.Domain.csproj",
+              "RelativeDocumentMoniker": "CleanCQRSProject.Domain\\CleanCQRSProject.Domain.csproj",
+              "ToolTip": "D:\\FPT_Exercise\\CleanCQRSProject\\CleanCQRSProject.Domain\\CleanCQRSProject.Domain.csproj",
+              "RelativeToolTip": "CleanCQRSProject.Domain\\CleanCQRSProject.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-02T15:29:12.776Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CleanCQRSProject.Application",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\CleanCQRSProject\\CleanCQRSProject.Application\\CleanCQRSProject.Application.csproj",
-              "RelativeDocumentMoniker": "CleanCQRSProject.Application\\CleanCQRSProject.Application.csproj",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\CleanCQRSProject\\CleanCQRSProject.Application\\CleanCQRSProject.Application.csproj",
-              "RelativeToolTip": "CleanCQRSProject.Application\\CleanCQRSProject.Application.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-02T15:23:05.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Title": "ConfigureService.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\CleanCQRSProject\\CleanCQRSProject.Application\\ConfigureService.cs",
+              "RelativeDocumentMoniker": "CleanCQRSProject.Application\\ConfigureService.cs",
+              "ToolTip": "D:\\FPT_Exercise\\CleanCQRSProject\\CleanCQRSProject.Application\\ConfigureService.cs",
+              "RelativeToolTip": "CleanCQRSProject.Application\\ConfigureService.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAiwA8AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-02T15:28:05.763Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "CleanCQRSProject.Application.csproj",
+              "DocumentMoniker": "D:\\FPT_Exercise\\CleanCQRSProject\\CleanCQRSProject.Application\\CleanCQRSProject.Application.csproj",
+              "RelativeDocumentMoniker": "CleanCQRSProject.Application\\CleanCQRSProject.Application.csproj",
+              "ToolTip": "D:\\FPT_Exercise\\CleanCQRSProject\\CleanCQRSProject.Application\\CleanCQRSProject.Application.csproj",
+              "RelativeToolTip": "CleanCQRSProject.Application\\CleanCQRSProject.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-02T15:23:05.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\CleanCQRSProject\\CleanCQRSProject.Application\\Class1.cs",
+              "DocumentMoniker": "D:\\FPT_Exercise\\CleanCQRSProject\\CleanCQRSProject.Application\\Class1.cs",
               "RelativeDocumentMoniker": "CleanCQRSProject.Application\\Class1.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\CleanCQRSProject\\CleanCQRSProject.Application\\Class1.cs",
+              "ToolTip": "D:\\FPT_Exercise\\CleanCQRSProject\\CleanCQRSProject.Application\\Class1.cs",
               "RelativeToolTip": "CleanCQRSProject.Application\\Class1.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T15:22:54.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-02T15:22:54.046Z"
             }
           ]
         },
