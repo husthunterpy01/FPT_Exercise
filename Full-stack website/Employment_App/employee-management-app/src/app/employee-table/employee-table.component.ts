@@ -19,7 +19,7 @@ export class EmployeeTableComponent {
       console.log(data);
     }
   );
-  }
+  } 
 
   deleteEmployee(id:number) : void{
     this.employeeService.deleteEmployee(id).subscribe({

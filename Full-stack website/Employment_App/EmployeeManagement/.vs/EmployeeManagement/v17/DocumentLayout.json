@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\EmployeeManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{45F07E98-D390-48B1-A341-3FDD4D87B944}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\dell\\source\\repos\\employeemanagement\\employeemanagement\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45F07E98-D390-48B1-A341-3FDD4D87B944}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45F07E98-D390-48B1-A341-3FDD4D87B944}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\dell\\source\\repos\\employeemanagement\\employeemanagement\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45F07E98-D390-48B1-A341-3FDD4D87B944}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45F07E98-D390-48B1-A341-3FDD4D87B944}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\dell\\source\\repos\\employeemanagement\\employeemanagement\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45F07E98-D390-48B1-A341-3FDD4D87B944}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{45F07E98-D390-48B1-A341-3FDD4D87B944}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\dell\\source\\repos\\employeemanagement\\employeemanagement\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45F07E98-D390-48B1-A341-3FDD4D87B944}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45F07E98-D390-48B1-A341-3FDD4D87B944}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\dell\\source\\repos\\employeemanagement\\employeemanagement\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{45F07E98-D390-48B1-A341-3FDD4D87B944}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\dell\\source\\repos\\employeemanagement\\employeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{45F07E98-D390-48B1-A341-3FDD4D87B944}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{45F07E98-D390-48B1-A341-3FDD4D87B944}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\dell\\source\\repos\\employeemanagement\\employeemanagement\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{45F07E98-D390-48B1-A341-3FDD4D87B944}|EmployeeManagement\\EmployeeManagement.csproj|solutionrelative:employeemanagement\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{45F07E98-D390-48B1-A341-3FDD4D87B944}|EmployeeManagement\\EmployeeManagement.csproj|c:\\users\\dell\\source\\repos\\employeemanagement\\employeemanagement\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,6 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Models\\Employee.cs",
+              "RelativeToolTip": "EmployeeManagement\\Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T11:07:20.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "EmployeeManagement\\Controllers\\EmployeeController.cs",
@@ -63,34 +72,7 @@
               "RelativeToolTip": "EmployeeManagement\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T06:30:10.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "EmployeeManagement\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Properties\\launchSettings.json",
-              "RelativeToolTip": "EmployeeManagement\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-06T03:10:01.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IEmployeeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Repositories\\IEmployeeRepository.cs",
-              "RelativeDocumentMoniker": "EmployeeManagement\\Repositories\\IEmployeeRepository.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Repositories\\IEmployeeRepository.cs",
-              "RelativeToolTip": "EmployeeManagement\\Repositories\\IEmployeeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T06:44:54.446Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T06:30:10.908Z"
             },
             {
               "$type": "Document",
@@ -102,12 +84,11 @@
               "RelativeToolTip": "EmployeeManagement\\Repositories\\EmployeeRepository.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAUwCsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T06:50:08.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T06:50:08.033Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\EmployeeManagement\\EmployeeManagement\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "EmployeeManagement\\Data\\AppDbContext.cs",
@@ -115,8 +96,7 @@
               "RelativeToolTip": "EmployeeManagement\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T06:28:18.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-05T06:28:18.86Z"
             }
           ]
         },
